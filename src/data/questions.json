@@ -1,0 +1,752 @@
+[
+  {
+    "id": "q1-01",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following best describes the concept of confidentiality in the CIA Triad?",
+    "options": [
+      "Ensuring data is accessible to authorized users at all times",
+      "Ensuring data is not disclosed to unauthorized individuals",
+      "Ensuring data has not been altered by unauthorized parties",
+      "Ensuring data can be recovered after a system failure"
+    ],
+    "correctIndex": 1,
+    "explanation": "Confidentiality ensures that information is accessible only to those authorized to access it. It protects against unauthorized disclosure of sensitive data through mechanisms such as encryption and access controls.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-02",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization uses hashing to verify that files have not been modified during transfer. Which element of the CIA Triad does this primarily support?",
+    "options": [
+      "Confidentiality",
+      "Availability",
+      "Integrity",
+      "Non-repudiation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hashing produces a unique digest of data content. By comparing hash values before and after transfer, an organization can verify that data has not been altered, directly supporting integrity.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-03",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which authentication method combines something you know with something you have?",
+    "options": [
+      "Using a password and a security question",
+      "Using a fingerprint and facial recognition",
+      "Using a password and a hardware token",
+      "Using two different passwords"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multi-factor authentication requires factors from different categories. A password (something you know) combined with a hardware token (something you have) represents true two-factor authentication. Two passwords or two security questions are both \"something you know\" and do not constitute MFA.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-04",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An asset valued at $100,000 has an exposure factor of 25% and the threat occurs twice per year. What is the Annualized Loss Expectancy (ALE)?",
+    "options": [
+      "$25,000",
+      "$50,000",
+      "$75,000",
+      "$100,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "ALE = SLE x ARO. SLE = Asset Value x Exposure Factor = $100,000 x 0.25 = $25,000. ARO = 2. Therefore ALE = $25,000 x 2 = $50,000.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-05",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which risk treatment strategy involves purchasing cybersecurity insurance to cover potential losses?",
+    "options": [
+      "Risk mitigation",
+      "Risk avoidance",
+      "Risk acceptance",
+      "Risk transfer"
+    ],
+    "correctIndex": 3,
+    "explanation": "Risk transfer shifts the financial burden of a risk to a third party. Purchasing insurance is the most common example of risk transfer, where the insurance company assumes the financial impact of covered incidents.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-06",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "A digital signature primarily provides which two security services?",
+    "options": [
+      "Confidentiality and availability",
+      "Integrity and non-repudiation",
+      "Confidentiality and authentication",
+      "Availability and accountability"
+    ],
+    "correctIndex": 1,
+    "explanation": "Digital signatures use asymmetric cryptography to verify that a message has not been altered (integrity) and to confirm the identity of the sender, preventing them from denying they sent the message (non-repudiation).",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-07",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following is the BEST example of a preventive control?",
+    "options": [
+      "Security camera monitoring",
+      "Intrusion detection system alerts",
+      "Mandatory access control enforcement",
+      "Post-incident forensic analysis"
+    ],
+    "correctIndex": 2,
+    "explanation": "Preventive controls stop security incidents before they occur. Mandatory access control enforcement prevents unauthorized access proactively. Security cameras and IDS alerts are detective controls, and forensic analysis is a corrective/recovery activity.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-08",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization decides to discontinue an online service that has been repeatedly targeted by attackers. This is an example of:",
+    "options": [
+      "Risk mitigation",
+      "Risk acceptance",
+      "Risk avoidance",
+      "Risk transfer"
+    ],
+    "correctIndex": 2,
+    "explanation": "Risk avoidance involves eliminating the activity or technology that creates the risk. By discontinuing the targeted service entirely, the organization removes the associated risk.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-09",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which principle states that users should only be granted the minimum level of access necessary to perform their job duties?",
+    "options": [
+      "Separation of duties",
+      "Need to know",
+      "Least privilege",
+      "Defense in depth"
+    ],
+    "correctIndex": 2,
+    "explanation": "The principle of least privilege mandates that users receive only the minimum permissions required to carry out their assigned tasks, reducing the potential damage from accidental or intentional misuse of access.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-10",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which type of risk analysis uses subjective categories such as High, Medium, and Low to evaluate threats?",
+    "options": [
+      "Quantitative risk analysis",
+      "Qualitative risk analysis",
+      "Residual risk analysis",
+      "Inherent risk analysis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Qualitative risk analysis uses subjective judgments and descriptive categories (such as High, Medium, Low) rather than precise numerical values. Quantitative risk analysis assigns specific dollar amounts and probability figures.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-01",
+    "domainId": "business-continuity",
+    "domainNumber": 2,
+    "text": "What is the primary purpose of a Business Impact Analysis (BIA)?",
+    "options": [
+      "To identify the cost of implementing security controls",
+      "To determine the critical business functions and the impact of their disruption",
+      "To evaluate the effectiveness of current security policies",
+      "To assign security clearance levels to personnel"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Business Impact Analysis identifies critical business functions and quantifies the impact of their disruption, including financial losses and operational consequences. It forms the foundation for business continuity planning.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-02",
+    "domainId": "business-continuity",
+    "domainNumber": 2,
+    "text": "An organization requires that its e-commerce platform be restored within 4 hours of an outage. This requirement defines the:",
+    "options": [
+      "Recovery Point Objective (RPO)",
+      "Maximum Tolerable Downtime (MTD)",
+      "Recovery Time Objective (RTO)",
+      "Mean Time to Repair (MTTR)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Recovery Time Objective (RTO) defines the maximum acceptable time to restore a system or service after a disruption. In this case, the 4-hour restoration requirement is the RTO for the e-commerce platform.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-03",
+    "domainId": "business-continuity",
+    "domainNumber": 2,
+    "text": "Which type of disaster recovery site provides the fastest recovery but is the most expensive?",
+    "options": [
+      "Cold site",
+      "Warm site",
+      "Hot site",
+      "Mobile site"
+    ],
+    "correctIndex": 2,
+    "explanation": "A hot site is a fully operational duplicate of the primary site with real-time data replication. It provides the fastest failover capability but carries the highest cost due to maintaining duplicate infrastructure and continuous data synchronization.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-04",
+    "domainId": "business-continuity",
+    "domainNumber": 2,
+    "text": "During which phase of the NIST incident response lifecycle is the root cause of an incident removed from the environment?",
+    "options": [
+      "Preparation",
+      "Detection and Analysis",
+      "Containment, Eradication, and Recovery",
+      "Post-Incident Activity"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Containment, Eradication, and Recovery phase includes removing the root cause (eradication), isolating affected systems (containment), and restoring operations (recovery). Eradication specifically targets eliminating the threat from the environment.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-05",
+    "domainId": "business-continuity",
+    "domainNumber": 2,
+    "text": "A company performs nightly backups at midnight. A system failure occurs at 10 AM. What is the maximum potential data loss?",
+    "options": [
+      "2 hours of data",
+      "10 hours of data",
+      "14 hours of data",
+      "24 hours of data"
+    ],
+    "correctIndex": 1,
+    "explanation": "Since the last backup was at midnight and the failure occurred at 10 AM, up to 10 hours of data could be lost. This scenario illustrates the Recovery Point Objective (RPO), which in this case is effectively up to 24 hours based on the backup schedule.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-06",
+    "domainId": "business-continuity",
+    "domainNumber": 2,
+    "text": "Which type of business continuity test involves senior management and key personnel walking through the plan in a conference room setting without actual system disruption?",
+    "options": [
+      "Full-interruption test",
+      "Parallel test",
+      "Tabletop exercise",
+      "Simulation test"
+    ],
+    "correctIndex": 2,
+    "explanation": "A tabletop exercise is a discussion-based exercise where participants review and discuss their roles and responses during a simulated scenario in a conference room setting, without actually disrupting operations.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-07",
+    "domainId": "business-continuity",
+    "domainNumber": 2,
+    "text": "What is the PRIMARY goal of the lessons-learned phase in incident response?",
+    "options": [
+      "To assign blame for the security incident",
+      "To improve future incident response capabilities",
+      "To calculate the total cost of the incident",
+      "To notify affected customers"
+    ],
+    "correctIndex": 1,
+    "explanation": "The lessons-learned (post-incident) phase focuses on analyzing what happened, what was done well, and what could be improved. Its primary purpose is to enhance the organization's ability to handle future incidents more effectively.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-08",
+    "domainId": "business-continuity",
+    "domainNumber": 2,
+    "text": "Which metric defines the longest time a business function can be unavailable before causing irreversible harm to the organization?",
+    "options": [
+      "Recovery Time Objective (RTO)",
+      "Recovery Point Objective (RPO)",
+      "Maximum Tolerable Downtime (MTD)",
+      "Service Level Agreement (SLA)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Maximum Tolerable Downtime (MTD) represents the absolute maximum time a business function can be unavailable before the organization suffers irreversible damage. RTO must always be less than or equal to the MTD.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-09",
+    "domainId": "business-continuity",
+    "domainNumber": 2,
+    "text": "During an incident, the security team isolates affected servers from the network to prevent the spread of malware. This action is part of which incident response phase?",
+    "options": [
+      "Detection",
+      "Containment",
+      "Eradication",
+      "Recovery"
+    ],
+    "correctIndex": 1,
+    "explanation": "Isolating affected systems to prevent the spread of a threat is a containment activity. Containment limits the scope and impact of an incident while the team prepares for eradication and recovery.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-10",
+    "domainId": "business-continuity",
+    "domainNumber": 2,
+    "text": "A warm site differs from a hot site primarily because a warm site:",
+    "options": [
+      "Has no network connectivity",
+      "Requires some configuration and data restoration before becoming operational",
+      "Is located in a different country",
+      "Does not have any pre-installed hardware"
+    ],
+    "correctIndex": 1,
+    "explanation": "A warm site has some hardware and network infrastructure pre-installed but requires additional configuration, software installation, and data restoration before it can become fully operational. A hot site is fully operational and ready for immediate failover.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-01",
+    "domainId": "access-controls",
+    "domainNumber": 3,
+    "text": "In which access control model does the resource owner determine who can access the resource?",
+    "options": [
+      "Mandatory Access Control (MAC)",
+      "Role-Based Access Control (RBAC)",
+      "Discretionary Access Control (DAC)",
+      "Rule-Based Access Control"
+    ],
+    "correctIndex": 2,
+    "explanation": "In Discretionary Access Control, the resource owner has the discretion to determine which users or groups can access the resource and what level of access they receive.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-02",
+    "domainId": "access-controls",
+    "domainNumber": 3,
+    "text": "Which access control model assigns permissions based on job functions and is most commonly used in enterprise environments?",
+    "options": [
+      "DAC",
+      "MAC",
+      "RBAC",
+      "Attribute-Based Access Control"
+    ],
+    "correctIndex": 2,
+    "explanation": "Role-Based Access Control (RBAC) assigns permissions to roles based on job functions, and users are assigned to appropriate roles. It is the most widely adopted model in enterprise environments due to its scalability and administrative efficiency.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-03",
+    "domainId": "access-controls",
+    "domainNumber": 3,
+    "text": "An access control vestibule (mantrap) is an example of which type of security control?",
+    "options": [
+      "Logical access control",
+      "Administrative control",
+      "Physical access control",
+      "Detective control"
+    ],
+    "correctIndex": 2,
+    "explanation": "A mantrap (access control vestibule) is a physical access control mechanism consisting of a small room with two interlocking doors. It prevents tailgating by ensuring only one person passes through at a time after proper authentication.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-04",
+    "domainId": "access-controls",
+    "domainNumber": 3,
+    "text": "Which principle requires that critical tasks be divided among multiple individuals to prevent fraud and errors?",
+    "options": [
+      "Least privilege",
+      "Need to know",
+      "Separation of duties",
+      "Job rotation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Separation of duties divides critical tasks among two or more individuals so that no single person has the ability to complete a sensitive transaction alone. This reduces the risk of fraud, errors, and abuse of privileges.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-05",
+    "domainId": "access-controls",
+    "domainNumber": 3,
+    "text": "Which technology allows a user to authenticate once and then access multiple applications without re-entering credentials?",
+    "options": [
+      "Multi-factor authentication",
+      "Single Sign-On (SSO)",
+      "Federated identity management",
+      "Certificate-based authentication"
+    ],
+    "correctIndex": 1,
+    "explanation": "Single Sign-On (SSO) allows users to authenticate once and gain access to multiple related but independent software systems without being prompted to log in again for each application.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-06",
+    "domainId": "access-controls",
+    "domainNumber": 3,
+    "text": "In Mandatory Access Control (MAC), access decisions are based on:",
+    "options": [
+      "The resource owner's discretion",
+      "The user's role within the organization",
+      "Security labels assigned to subjects and objects",
+      "Time-of-day restrictions"
+    ],
+    "correctIndex": 2,
+    "explanation": "MAC uses security labels and classification levels. Both subjects (users) and objects (files, resources) are assigned labels, and the system enforces access based on comparing these labels according to predefined rules.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-07",
+    "domainId": "access-controls",
+    "domainNumber": 3,
+    "text": "An organization disables user accounts after 5 consecutive failed login attempts. This is an example of:",
+    "options": [
+      "Access review",
+      "Account lockout policy",
+      "Session management",
+      "Privileged access management"
+    ],
+    "correctIndex": 1,
+    "explanation": "An account lockout policy automatically disables or locks an account after a specified number of consecutive failed authentication attempts. This control protects against brute-force password attacks.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-08",
+    "domainId": "access-controls",
+    "domainNumber": 3,
+    "text": "Which of the following is a biometric authentication factor?",
+    "options": [
+      "A smart card",
+      "A PIN code",
+      "An iris scan",
+      "A one-time password token"
+    ],
+    "correctIndex": 2,
+    "explanation": "An iris scan is a biometric factor classified as \"something you are.\" Smart cards and OTP tokens are \"something you have,\" and PIN codes are \"something you know.\"",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-09",
+    "domainId": "access-controls",
+    "domainNumber": 3,
+    "text": "The process of removing access rights when an employee leaves the organization is known as:",
+    "options": [
+      "Provisioning",
+      "De-provisioning",
+      "Authentication",
+      "Authorization"
+    ],
+    "correctIndex": 1,
+    "explanation": "De-provisioning is the process of revoking and removing access rights, accounts, and privileges when an employee leaves the organization or changes roles. Timely de-provisioning is critical to prevent unauthorized access by former employees.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-10",
+    "domainId": "access-controls",
+    "domainNumber": 3,
+    "text": "Defense in depth is a security strategy that:",
+    "options": [
+      "Relies on a single, strong perimeter defense",
+      "Implements multiple layers of security controls",
+      "Focuses exclusively on network security",
+      "Requires all users to have the same access level"
+    ],
+    "correctIndex": 1,
+    "explanation": "Defense in depth implements multiple layers of security controls so that if one layer fails, additional layers continue to provide protection. This approach combines physical, technical, and administrative controls across the environment.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-01",
+    "domainId": "network-security",
+    "domainNumber": 4,
+    "text": "At which layer of the OSI model do routers primarily operate?",
+    "options": [
+      "Layer 1 - Physical",
+      "Layer 2 - Data Link",
+      "Layer 3 - Network",
+      "Layer 4 - Transport"
+    ],
+    "correctIndex": 2,
+    "explanation": "Routers operate at Layer 3 (Network layer) of the OSI model. They make forwarding decisions based on logical IP addresses and route packets between different networks.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-02",
+    "domainId": "network-security",
+    "domainNumber": 4,
+    "text": "Which network device examines traffic and can actively block malicious packets in real time?",
+    "options": [
+      "Hub",
+      "Intrusion Detection System (IDS)",
+      "Intrusion Prevention System (IPS)",
+      "Network switch"
+    ],
+    "correctIndex": 2,
+    "explanation": "An Intrusion Prevention System (IPS) monitors network traffic and can automatically take action to block or prevent detected threats in real time. An IDS only detects and alerts but does not actively block traffic.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-03",
+    "domainId": "network-security",
+    "domainNumber": 4,
+    "text": "What is the primary purpose of a DMZ (Demilitarized Zone) in network architecture?",
+    "options": [
+      "To connect branch offices via encrypted tunnels",
+      "To isolate public-facing services from the internal network",
+      "To provide wireless access to guests",
+      "To store encrypted backup data"
+    ],
+    "correctIndex": 1,
+    "explanation": "A DMZ is a network segment that sits between the internal trusted network and the external untrusted network. Public-facing servers are placed in the DMZ so that external users can access them without having direct access to internal resources.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-04",
+    "domainId": "network-security",
+    "domainNumber": 4,
+    "text": "Which protocol operates on port 443 and provides encrypted web communication?",
+    "options": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "SSH"
+    ],
+    "correctIndex": 1,
+    "explanation": "HTTPS (HTTP Secure) operates on port 443 and uses TLS encryption to secure web communication between clients and servers. Standard HTTP uses port 80 and transmits data in plaintext.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-05",
+    "domainId": "network-security",
+    "domainNumber": 4,
+    "text": "A VPN operating in tunnel mode encrypts:",
+    "options": [
+      "Only the data payload of the packet",
+      "Only the packet header",
+      "The entire original packet including headers",
+      "Only the routing information"
+    ],
+    "correctIndex": 2,
+    "explanation": "In tunnel mode, the entire original IP packet (including both the header and the payload) is encrypted and encapsulated within a new packet. Transport mode, by contrast, encrypts only the payload while leaving the original headers intact.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-06",
+    "domainId": "network-security",
+    "domainNumber": 4,
+    "text": "Which type of firewall tracks the state of active network connections and makes decisions based on the context of traffic?",
+    "options": [
+      "Packet-filtering firewall",
+      "Stateful inspection firewall",
+      "Application proxy firewall",
+      "Circuit-level gateway"
+    ],
+    "correctIndex": 1,
+    "explanation": "A stateful inspection firewall maintains a state table that tracks active connections and their status. It evaluates packets in the context of established connections, providing more intelligent filtering than simple packet-filtering firewalls.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-07",
+    "domainId": "network-security",
+    "domainNumber": 4,
+    "text": "SSH (Secure Shell) operates on which default port?",
+    "options": [
+      "Port 21",
+      "Port 22",
+      "Port 23",
+      "Port 25"
+    ],
+    "correctIndex": 1,
+    "explanation": "SSH uses port 22 by default. It provides encrypted remote access and administration capabilities. Port 21 is FTP, port 23 is Telnet (insecure), and port 25 is SMTP.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-08",
+    "domainId": "network-security",
+    "domainNumber": 4,
+    "text": "Network segmentation primarily helps to:",
+    "options": [
+      "Increase network speed for all users",
+      "Limit lateral movement by attackers within the network",
+      "Eliminate the need for firewalls",
+      "Simplify network administration"
+    ],
+    "correctIndex": 1,
+    "explanation": "Network segmentation divides the network into isolated zones, limiting an attacker's ability to move laterally from one compromised system to access other parts of the network. It contains breaches and reduces the overall attack surface.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-09",
+    "domainId": "network-security",
+    "domainNumber": 4,
+    "text": "Which protocol provides connectionless, best-effort delivery and is commonly used for DNS queries?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "ARP"
+    ],
+    "correctIndex": 1,
+    "explanation": "UDP (User Datagram Protocol) provides connectionless, best-effort delivery without the overhead of connection establishment and error checking that TCP provides. DNS queries typically use UDP on port 53 for faster resolution.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-10",
+    "domainId": "network-security",
+    "domainNumber": 4,
+    "text": "DNSSEC is designed to protect against which type of attack?",
+    "options": [
+      "Denial-of-service attacks",
+      "DNS spoofing and cache poisoning",
+      "Man-in-the-middle attacks on encrypted traffic",
+      "Brute-force password attacks"
+    ],
+    "correctIndex": 1,
+    "explanation": "DNS Security Extensions (DNSSEC) add cryptographic authentication to DNS responses, ensuring that DNS data has not been tampered with. This protects against DNS spoofing and cache poisoning attacks where attackers redirect users to malicious sites.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-01",
+    "domainId": "security-operations",
+    "domainNumber": 5,
+    "text": "Data that is being transmitted across a network is classified as:",
+    "options": [
+      "Data at rest",
+      "Data in transit",
+      "Data in use",
+      "Data in storage"
+    ],
+    "correctIndex": 1,
+    "explanation": "Data in transit (also called data in motion) refers to data actively moving from one location to another, such as across a network or between systems. It is protected using encryption protocols like TLS, IPsec, and VPNs.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-02",
+    "domainId": "security-operations",
+    "domainNumber": 5,
+    "text": "Which data destruction method renders a hard drive unreadable by exposing it to a strong magnetic field?",
+    "options": [
+      "Shredding",
+      "Degaussing",
+      "Cryptographic erasure",
+      "Overwriting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Degaussing uses a powerful magnetic field to erase data on magnetic storage media by randomizing the magnetic domains. It is effective for hard drives and magnetic tapes but does not work on solid-state drives (SSDs).",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-03",
+    "domainId": "security-operations",
+    "domainNumber": 5,
+    "text": "Which of the following is the FIRST step in system hardening?",
+    "options": [
+      "Installing antivirus software",
+      "Enabling audit logging",
+      "Removing unnecessary services and software",
+      "Configuring a host-based firewall"
+    ],
+    "correctIndex": 2,
+    "explanation": "The first step in system hardening is to reduce the attack surface by removing or disabling unnecessary services, applications, and protocols. This eliminates potential entry points before applying additional security controls.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-04",
+    "domainId": "security-operations",
+    "domainNumber": 5,
+    "text": "An Acceptable Use Policy (AUP) primarily defines:",
+    "options": [
+      "The organization's data backup schedule",
+      "How employees are permitted to use organizational resources",
+      "The technical specifications for firewall configurations",
+      "The process for conducting vulnerability assessments"
+    ],
+    "correctIndex": 1,
+    "explanation": "An Acceptable Use Policy defines the rules and guidelines governing how employees and other authorized users may use the organization's information systems, networks, and other resources. It sets expectations for appropriate behavior.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-05",
+    "domainId": "security-operations",
+    "domainNumber": 5,
+    "text": "In the security policy hierarchy, which document provides specific mandatory technical requirements?",
+    "options": [
+      "Policy",
+      "Standard",
+      "Guideline",
+      "Procedure"
+    ],
+    "correctIndex": 1,
+    "explanation": "Standards specify mandatory technical requirements that support policies. For example, a policy might require encryption, while the corresponding standard specifies that AES-256 must be used. Guidelines are recommended but not mandatory, and procedures are step-by-step instructions.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-06",
+    "domainId": "security-operations",
+    "domainNumber": 5,
+    "text": "A Change Advisory Board (CAB) is primarily responsible for:",
+    "options": [
+      "Responding to security incidents",
+      "Reviewing and approving proposed changes to IT systems",
+      "Conducting employee background checks",
+      "Monitoring network traffic for intrusions"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Change Advisory Board reviews proposed changes to IT systems, evaluates the associated risks, and approves or rejects change requests. This ensures that changes do not introduce vulnerabilities or disrupt services.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-07",
+    "domainId": "security-operations",
+    "domainNumber": 5,
+    "text": "Which security tool monitors and correlates events from multiple sources across the network to identify potential security incidents?",
+    "options": [
+      "Firewall",
+      "Antivirus software",
+      "SIEM (Security Information and Event Management)",
+      "VPN concentrator"
+    ],
+    "correctIndex": 2,
+    "explanation": "A SIEM system collects, aggregates, and analyzes log data from multiple sources across the organization's infrastructure. It correlates events to identify patterns that may indicate security incidents and generates alerts for investigation.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-08",
+    "domainId": "security-operations",
+    "domainNumber": 5,
+    "text": "Data Loss Prevention (DLP) technology is primarily designed to:",
+    "options": [
+      "Encrypt all data at rest",
+      "Prevent unauthorized disclosure of sensitive data",
+      "Back up critical business data",
+      "Authenticate users accessing sensitive systems"
+    ],
+    "correctIndex": 1,
+    "explanation": "Data Loss Prevention (DLP) systems monitor, detect, and prevent the unauthorized transfer or disclosure of sensitive information. They can be deployed at the network, endpoint, or cloud level to enforce data handling policies.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-09",
+    "domainId": "security-operations",
+    "domainNumber": 5,
+    "text": "Which organization publishes security configuration benchmarks that are widely used for system hardening?",
+    "options": [
+      "IEEE",
+      "ISACA",
+      "Center for Internet Security (CIS)",
+      "World Wide Web Consortium (W3C)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Center for Internet Security (CIS) publishes detailed security configuration benchmarks for various operating systems, applications, and network devices. CIS Benchmarks provide prescriptive guidance for hardening systems to industry-accepted standards.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-10",
+    "domainId": "security-operations",
+    "domainNumber": 5,
+    "text": "Security awareness training for employees should PRIMARILY address:",
+    "options": [
+      "Advanced penetration testing techniques",
+      "Detailed firewall configuration procedures",
+      "Recognition of phishing attempts and social engineering tactics",
+      "Database administration and security"
+    ],
+    "correctIndex": 2,
+    "explanation": "Security awareness training should focus on practical topics that all employees encounter, such as recognizing phishing emails, understanding social engineering tactics, following password policies, and knowing how to report security incidents.",
+    "difficulty": "foundational"
+  }
+]

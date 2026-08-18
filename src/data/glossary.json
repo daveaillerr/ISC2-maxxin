@@ -1,0 +1,298 @@
+[
+  {
+    "term": "Confidentiality",
+    "definition": "The principle that objects are not disclosed to unauthorized subjects. It ensures that sensitive information is only accessed by those who have the appropriate authorization and need-to-know.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Integrity",
+    "definition": "The principle that objects retain their veracity and are intentionally modified by only authorized subjects. It protects against unauthorized or unintended modification of data.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Availability",
+    "definition": "The principle that authorized subjects are granted timely and uninterrupted access to objects. Systems, applications, and data must be accessible to authorized users when needed.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "CIA Triad",
+    "definition": "The foundational model for information security consisting of three core principles: Confidentiality, Integrity, and Availability. All security controls and programs are designed to address one or more of these principles.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Authentication",
+    "definition": "The process of verifying the identity of a user, device, or system. It typically relies on one or more factors: something you know, something you have, or something you are.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Authorization",
+    "definition": "The process of determining what an authenticated user is permitted to do. It defines the resources and operations that a subject is allowed to access or perform.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Non-Repudiation",
+    "definition": "The assurance that a party in a communication cannot deny the authenticity of their signature or the sending of a message. It provides proof of origin and integrity.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Multi-Factor Authentication",
+    "abbreviation": "MFA",
+    "definition": "An authentication method that requires the user to provide two or more verification factors from different categories: something you know, something you have, or something you are.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Single Loss Expectancy",
+    "abbreviation": "SLE",
+    "definition": "The expected monetary loss from a single occurrence of a threat exploiting a vulnerability. Calculated as: SLE = Asset Value x Exposure Factor.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Annualized Loss Expectancy",
+    "abbreviation": "ALE",
+    "definition": "The expected monetary loss from a specific threat over a one-year period. Calculated as: ALE = SLE x ARO.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Annualized Rate of Occurrence",
+    "abbreviation": "ARO",
+    "definition": "The estimated frequency with which a specific threat is expected to occur within a one-year period.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Exposure Factor",
+    "abbreviation": "EF",
+    "definition": "The percentage of an asset's value that would be lost in the event of a security incident. Expressed as a value between 0 and 1.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Risk Mitigation",
+    "definition": "A risk treatment strategy that involves implementing controls to reduce the likelihood or impact of a risk to an acceptable level.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Risk Transfer",
+    "definition": "A risk treatment strategy that shifts the financial burden of a risk to a third party, such as through insurance or outsourcing.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Risk Acceptance",
+    "definition": "A risk treatment strategy where the organization acknowledges a risk and decides to accept the potential consequences without implementing additional controls.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Risk Avoidance",
+    "definition": "A risk treatment strategy that eliminates the activity or technology that creates the risk entirely.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Defense in Depth",
+    "definition": "A security strategy that implements multiple layers of security controls so that if one layer fails, additional layers continue to provide protection.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Least Privilege",
+    "definition": "The principle that users should be granted only the minimum permissions necessary to perform their job functions, reducing the potential damage from misuse.",
+    "domain": "Security Principles"
+  },
+  {
+    "term": "Business Continuity Plan",
+    "abbreviation": "BCP",
+    "definition": "A comprehensive plan that identifies critical business functions and the resources required to support them during and after a disruption.",
+    "domain": "Business Continuity, DR & IR"
+  },
+  {
+    "term": "Business Impact Analysis",
+    "abbreviation": "BIA",
+    "definition": "A systematic process that identifies and evaluates the potential effects of disruption to critical business operations, quantifying the impact in terms of time, resources, and cost.",
+    "domain": "Business Continuity, DR & IR"
+  },
+  {
+    "term": "Recovery Time Objective",
+    "abbreviation": "RTO",
+    "definition": "The maximum acceptable time to restore a system or service after a disruption before the business impact becomes unacceptable.",
+    "domain": "Business Continuity, DR & IR"
+  },
+  {
+    "term": "Recovery Point Objective",
+    "abbreviation": "RPO",
+    "definition": "The maximum acceptable amount of data loss measured in time. It defines the point in time to which data must be recovered after a disruption.",
+    "domain": "Business Continuity, DR & IR"
+  },
+  {
+    "term": "Maximum Tolerable Downtime",
+    "abbreviation": "MTD",
+    "definition": "The longest period a business function can be unavailable before causing irreversible harm to the organization. RTO must always be less than or equal to MTD.",
+    "domain": "Business Continuity, DR & IR"
+  },
+  {
+    "term": "Hot Site",
+    "definition": "A fully operational alternate processing facility with real-time data replication that can take over operations immediately. The most expensive DR option.",
+    "domain": "Business Continuity, DR & IR"
+  },
+  {
+    "term": "Warm Site",
+    "definition": "A partially equipped alternate facility that has some hardware and connectivity but requires additional configuration and data restoration before becoming operational.",
+    "domain": "Business Continuity, DR & IR"
+  },
+  {
+    "term": "Cold Site",
+    "definition": "A basic alternate facility with power and network connectivity but no pre-installed equipment. It has the lowest cost but the longest recovery time.",
+    "domain": "Business Continuity, DR & IR"
+  },
+  {
+    "term": "Incident Response",
+    "abbreviation": "IR",
+    "definition": "The organized approach to addressing and managing the aftermath of a security breach or cyberattack to limit damage, reduce recovery time, and minimize costs.",
+    "domain": "Business Continuity, DR & IR"
+  },
+  {
+    "term": "Discretionary Access Control",
+    "abbreviation": "DAC",
+    "definition": "An access control model where the resource owner determines who can access their resources. The owner has discretion to grant or revoke permissions.",
+    "domain": "Access Controls"
+  },
+  {
+    "term": "Mandatory Access Control",
+    "abbreviation": "MAC",
+    "definition": "An access control model that uses security labels and clearance levels to enforce access decisions. Users cannot override MAC policies regardless of ownership.",
+    "domain": "Access Controls"
+  },
+  {
+    "term": "Role-Based Access Control",
+    "abbreviation": "RBAC",
+    "definition": "An access control model that assigns permissions to roles based on job functions. Users are assigned to appropriate roles, simplifying administration in large organizations.",
+    "domain": "Access Controls"
+  },
+  {
+    "term": "Access Control List",
+    "abbreviation": "ACL",
+    "definition": "A list of permissions attached to an object that specifies which subjects are granted access and what operations they are allowed to perform.",
+    "domain": "Access Controls"
+  },
+  {
+    "term": "Single Sign-On",
+    "abbreviation": "SSO",
+    "definition": "An authentication mechanism that allows users to authenticate once and access multiple related systems without re-entering credentials for each application.",
+    "domain": "Access Controls"
+  },
+  {
+    "term": "Separation of Duties",
+    "abbreviation": "SoD",
+    "definition": "A control principle that divides critical tasks among multiple individuals to prevent any single person from having the ability to complete a sensitive transaction alone.",
+    "domain": "Access Controls"
+  },
+  {
+    "term": "Need to Know",
+    "definition": "A security principle that restricts access to information to only those individuals who require the information to perform their specific job duties, even if they have the appropriate clearance level.",
+    "domain": "Access Controls"
+  },
+  {
+    "term": "Firewall",
+    "definition": "A network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules, establishing a barrier between trusted and untrusted networks.",
+    "domain": "Network Security"
+  },
+  {
+    "term": "Intrusion Detection System",
+    "abbreviation": "IDS",
+    "definition": "A security system that monitors network traffic or system activities for malicious activity or policy violations and generates alerts for investigation.",
+    "domain": "Network Security"
+  },
+  {
+    "term": "Intrusion Prevention System",
+    "abbreviation": "IPS",
+    "definition": "A security system that monitors network traffic and can automatically take action to block or prevent detected threats in real time.",
+    "domain": "Network Security"
+  },
+  {
+    "term": "Demilitarized Zone",
+    "abbreviation": "DMZ",
+    "definition": "A network segment that sits between the internal trusted network and the external untrusted network, hosting public-facing services while isolating them from internal resources.",
+    "domain": "Network Security"
+  },
+  {
+    "term": "Virtual Private Network",
+    "abbreviation": "VPN",
+    "definition": "A technology that creates an encrypted tunnel over a public network, enabling secure remote access to organizational resources as if the user were directly connected to the private network.",
+    "domain": "Network Security"
+  },
+  {
+    "term": "Transport Layer Security",
+    "abbreviation": "TLS",
+    "definition": "A cryptographic protocol that provides encrypted communication between clients and servers. The successor to SSL and the standard for securing web traffic (HTTPS).",
+    "domain": "Network Security"
+  },
+  {
+    "term": "Public Key Infrastructure",
+    "abbreviation": "PKI",
+    "definition": "A framework of policies, procedures, and technologies used to create, manage, distribute, use, store, and revoke digital certificates for secure electronic communication.",
+    "domain": "Network Security"
+  },
+  {
+    "term": "DNS Security Extensions",
+    "abbreviation": "DNSSEC",
+    "definition": "Extensions to DNS that add cryptographic authentication to DNS responses, protecting against DNS spoofing and cache poisoning attacks.",
+    "domain": "Network Security"
+  },
+  {
+    "term": "Zero Trust",
+    "definition": "A security model based on the principle of never trusting and always verifying. Every access request is fully authenticated, authorized, and encrypted regardless of where it originates.",
+    "domain": "Network Security"
+  },
+  {
+    "term": "Security Information and Event Management",
+    "abbreviation": "SIEM",
+    "definition": "A technology that collects, aggregates, and analyzes log data from multiple sources across an organization to identify security incidents and generate alerts.",
+    "domain": "Security Operations"
+  },
+  {
+    "term": "Security Operations Center",
+    "abbreviation": "SOC",
+    "definition": "A centralized facility where security professionals monitor, detect, analyze, and respond to cybersecurity incidents on a continuous basis.",
+    "domain": "Security Operations"
+  },
+  {
+    "term": "Data Loss Prevention",
+    "abbreviation": "DLP",
+    "definition": "Technology that monitors, detects, and prevents the unauthorized transfer or disclosure of sensitive information at the network, endpoint, or cloud level.",
+    "domain": "Security Operations"
+  },
+  {
+    "term": "Endpoint Detection and Response",
+    "abbreviation": "EDR",
+    "definition": "Security solutions that continuously monitor endpoint devices, record endpoint and network events, and provide investigation and response capabilities for security threats.",
+    "domain": "Security Operations"
+  },
+  {
+    "term": "Patch Management",
+    "definition": "The process of identifying, testing, and deploying software updates and security patches to systems in a timely and controlled manner to address known vulnerabilities.",
+    "domain": "Security Operations"
+  },
+  {
+    "term": "Change Advisory Board",
+    "abbreviation": "CAB",
+    "definition": "A body responsible for reviewing, evaluating, and approving or rejecting proposed changes to IT systems to ensure they do not introduce vulnerabilities or disrupt services.",
+    "domain": "Security Operations"
+  },
+  {
+    "term": "Acceptable Use Policy",
+    "abbreviation": "AUP",
+    "definition": "A document that defines the rules and guidelines governing how employees and authorized users may use organizational information systems, networks, and resources.",
+    "domain": "Security Operations"
+  },
+  {
+    "term": "NIST Cybersecurity Framework",
+    "abbreviation": "NIST CSF",
+    "definition": "A voluntary framework consisting of standards, guidelines, and best practices to manage cybersecurity-related risk. Its five core functions are: Identify, Protect, Detect, Respond, and Recover.",
+    "domain": "Security Operations"
+  },
+  {
+    "term": "Degaussing",
+    "definition": "A data destruction method that uses a powerful magnetic field to erase data on magnetic storage media by randomizing the magnetic domains. Not effective on solid-state drives.",
+    "domain": "Security Operations"
+  },
+  {
+    "term": "Cryptographic Erasure",
+    "definition": "A data destruction method that renders encrypted data unrecoverable by securely destroying the encryption keys, leaving only indecipherable ciphertext.",
+    "domain": "Security Operations"
+  }
+]

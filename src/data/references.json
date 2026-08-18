@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ref-1",
+    "title": "ISC2 Official CC Certification Outline",
+    "description": "The official exam outline and syllabus provided by ISC2, detailing the exact weighted domains and testing format.",
+    "url": "https://www.isc2.org/Certifications/CC/Exam-Outline",
+    "category": "Official ISC2"
+  },
+  {
+    "id": "ref-2",
+    "title": "NIST Cybersecurity Framework (CSF)",
+    "description": "Fundamental reading for Domain 5. Understand the Identify, Protect, Detect, Respond, Recover lifecycle.",
+    "url": "https://www.nist.gov/cyberframework",
+    "category": "Frameworks & Standards"
+  },
+  {
+    "id": "ref-3",
+    "title": "NIST SP 800-61 Rev. 2: Incident Handling Guide",
+    "description": "The definitive guide on the Incident Response lifecycle (Preparation, Detection, Containment, Eradication, Recovery).",
+    "url": "https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final",
+    "category": "Frameworks & Standards"
+  },
+  {
+    "id": "ref-4",
+    "title": "CIS Controls and Benchmarks",
+    "description": "Crucial for system hardening. Center for Internet Security best practices for securing systems and data.",
+    "url": "https://www.cisecurity.org/cis-benchmarks/",
+    "category": "Frameworks & Standards"
+  },
+  {
+    "id": "ref-5",
+    "title": "OSI Model vs TCP/IP Mapping Reference",
+    "description": "A comprehensive breakdown of network protocols mapped to their respective OSI and TCP/IP layers.",
+    "url": "https://en.wikipedia.org/wiki/OSI_model#Comparison_with_TCP/IP_model",
+    "category": "Networking Reference"
+  },
+  {
+    "id": "ref-6",
+    "title": "Common Ports and Protocols Cheat Sheet",
+    "description": "Quick reference list of common network ports (e.g., 22 SSH, 53 DNS, 443 HTTPS) crucial for the exam.",
+    "url": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers",
+    "category": "Networking Reference"
+  }
+]

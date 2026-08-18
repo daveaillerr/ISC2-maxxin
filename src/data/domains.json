@@ -1,0 +1,310 @@
+[
+  {
+    "id": "security-principles",
+    "number": 1,
+    "title": "Security Principles",
+    "description": "Foundational security concepts including the CIA Triad, authentication, authorization, non-repudiation, privacy, and risk management frameworks.",
+    "topics": [
+      {
+        "id": "cia-triad",
+        "title": "The CIA Triad",
+        "content": "The CIA Triad represents the three core principles of information security: Confidentiality, Integrity, and Availability. These principles form the foundation upon which all security programs and controls are built.\n\nConfidentiality ensures that information is accessible only to those authorized to access it. This is achieved through mechanisms such as encryption, access controls, and data classification. A breach of confidentiality occurs when unauthorized individuals gain access to sensitive data, whether through hacking, social engineering, or improper data handling.\n\nIntegrity ensures that data remains accurate, complete, and unaltered except by authorized parties through authorized mechanisms. Integrity controls include hashing algorithms, digital signatures, version control systems, and input validation. When integrity is compromised, organizations cannot trust the accuracy of their data, leading to flawed decision-making and potential regulatory violations.\n\nAvailability ensures that information and systems are accessible to authorized users when needed. This is maintained through redundancy, fault tolerance, proper capacity planning, and disaster recovery procedures. Denial-of-service attacks, hardware failures, and natural disasters are common threats to availability.",
+        "keyTerms": [
+          "Confidentiality",
+          "Integrity",
+          "Availability",
+          "Encryption",
+          "Hashing",
+          "Redundancy",
+          "Fault Tolerance"
+        ]
+      },
+      {
+        "id": "authentication",
+        "title": "Authentication and Authorization",
+        "content": "Authentication is the process of verifying the identity of a user, device, or system. It answers the question \"Who are you?\" and relies on one or more authentication factors: something you know (passwords, PINs), something you have (tokens, smart cards), and something you are (biometrics such as fingerprints or facial recognition).\n\nMulti-factor authentication (MFA) requires the use of two or more distinct authentication factors, significantly reducing the risk of unauthorized access. For example, combining a password with a one-time code from a mobile authenticator provides stronger assurance than either factor alone.\n\nAuthorization, by contrast, determines what an authenticated user is permitted to do. It answers the question \"What are you allowed to access?\" Authorization is enforced through access control models such as Discretionary Access Control (DAC), Mandatory Access Control (MAC), and Role-Based Access Control (RBAC). The principle of least privilege dictates that users should be granted only the minimum permissions necessary to perform their job functions.",
+        "keyTerms": [
+          "Authentication",
+          "Authorization",
+          "MFA",
+          "Least Privilege",
+          "Something You Know",
+          "Something You Have",
+          "Something You Are"
+        ]
+      },
+      {
+        "id": "non-repudiation",
+        "title": "Non-Repudiation and Accountability",
+        "content": "Non-repudiation is the assurance that a party in a communication or transaction cannot deny the authenticity of their signature or the sending of a message. It provides proof of the origin and integrity of data, ensuring that actions can be attributed to a specific individual or entity.\n\nDigital signatures are the primary mechanism for achieving non-repudiation. They use asymmetric cryptography where a sender signs a message with their private key, and the recipient verifies it with the sender's public key. This process provides evidence that the message was created by the claimed sender and has not been altered in transit.\n\nAccountability is closely related to non-repudiation and requires that all actions within a system can be traced to a specific, authenticated entity. Audit logs, access records, and activity monitoring are essential components of accountability. Without proper logging and monitoring, organizations cannot investigate security incidents or demonstrate compliance with regulatory requirements.",
+        "keyTerms": [
+          "Non-Repudiation",
+          "Digital Signatures",
+          "Accountability",
+          "Audit Logs",
+          "Asymmetric Cryptography",
+          "Private Key",
+          "Public Key"
+        ]
+      },
+      {
+        "id": "risk-management",
+        "title": "Risk Management Concepts",
+        "content": "Risk management is the systematic process of identifying, assessing, and mitigating risks to an organization's information assets. It involves understanding the relationship between threats, vulnerabilities, and the potential impact of security incidents.\n\nA threat is any potential event or action that could cause harm to an asset. A vulnerability is a weakness in a system, process, or control that could be exploited by a threat. Risk is the likelihood that a threat will exploit a vulnerability and the resulting impact on the organization. The formula is often expressed as: Risk = Threat x Vulnerability x Impact.\n\nQuantitative risk analysis assigns numerical values to risk components. Key formulas include: Single Loss Expectancy (SLE) = Asset Value x Exposure Factor; Annualized Rate of Occurrence (ARO) represents how often a loss is expected per year; and Annualized Loss Expectancy (ALE) = SLE x ARO. Qualitative risk analysis uses subjective ratings such as high, medium, and low to categorize risks.\n\nRisk treatment options include risk mitigation (implementing controls to reduce risk), risk acceptance (acknowledging and accepting the risk), risk avoidance (eliminating the activity that creates risk), and risk transfer (shifting risk to a third party, such as through insurance or outsourcing).",
+        "keyTerms": [
+          "Threat",
+          "Vulnerability",
+          "Risk",
+          "SLE",
+          "ALE",
+          "ARO",
+          "Exposure Factor",
+          "Risk Mitigation",
+          "Risk Acceptance",
+          "Risk Avoidance",
+          "Risk Transfer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "business-continuity",
+    "number": 2,
+    "title": "Business Continuity, Disaster Recovery & Incident Response",
+    "description": "Planning and procedures for maintaining operations during disruptions, recovering from disasters, and responding to security incidents.",
+    "topics": [
+      {
+        "id": "bc-planning",
+        "title": "Business Continuity Planning",
+        "content": "Business Continuity Planning (BCP) is the process of creating systems of prevention and recovery to deal with potential threats to an organization. The goal is to ensure that personnel and assets are protected and able to function in the event of a disaster or disruption.\n\nThe Business Impact Analysis (BIA) is a critical component of BCP. It identifies the organization's critical business functions and the resources required to support them. The BIA quantifies the impact of disruptions through metrics such as Maximum Tolerable Downtime (MTD), which defines the longest period a business function can be unavailable before causing irreversible harm.\n\nBCP encompasses all aspects of the business, including facilities, technology, personnel, supply chains, and communication systems. Plans must be regularly tested through exercises such as tabletop exercises, walkthroughs, simulations, and full-interruption tests. Testing validates that the plan works as intended and identifies gaps that need to be addressed.",
+        "keyTerms": [
+          "BCP",
+          "BIA",
+          "MTD",
+          "Tabletop Exercise",
+          "Critical Business Functions",
+          "Full-Interruption Test"
+        ]
+      },
+      {
+        "id": "disaster-recovery",
+        "title": "Disaster Recovery Concepts",
+        "content": "Disaster Recovery (DR) focuses specifically on restoring IT infrastructure and operations after a significant disruption. While BCP addresses overall business operations, DR targets the technical recovery of systems, applications, and data.\n\nTwo critical metrics in disaster recovery are the Recovery Time Objective (RTO) and the Recovery Point Objective (RPO). RTO defines the maximum acceptable time to restore a system after a disruption. RPO defines the maximum acceptable amount of data loss measured in time, essentially how far back in time the recovery process will go. For example, an RPO of 4 hours means the organization accepts losing up to 4 hours of data.\n\nDR strategies include the use of alternate processing sites: hot sites (fully operational duplicates ready for immediate failover), warm sites (partially equipped facilities that require some configuration), and cold sites (basic facilities with power and connectivity but no pre-installed equipment). The choice of site type reflects a balance between recovery speed and cost.",
+        "keyTerms": [
+          "RTO",
+          "RPO",
+          "Hot Site",
+          "Warm Site",
+          "Cold Site",
+          "Failover",
+          "Disaster Recovery Plan"
+        ]
+      },
+      {
+        "id": "incident-response",
+        "title": "Incident Response Procedures",
+        "content": "Incident Response (IR) is the organized approach to addressing and managing the aftermath of a security breach or cyberattack. The goal is to handle the situation in a way that limits damage, reduces recovery time, and minimizes costs.\n\nThe incident response lifecycle, as defined by NIST SP 800-61, consists of four phases: Preparation, Detection and Analysis, Containment Eradication and Recovery, and Post-Incident Activity. Preparation involves establishing the incident response team, creating response procedures, and ensuring necessary tools and resources are available.\n\nDuring Detection and Analysis, security events are identified and evaluated to determine whether they constitute actual incidents. This phase relies on monitoring systems such as SIEM (Security Information and Event Management) platforms, intrusion detection systems, and log analysis. Containment strategies may be short-term (isolating affected systems) or long-term (applying patches and rebuilding systems). Eradication removes the root cause, and recovery restores systems to normal operation.\n\nPost-Incident Activity includes conducting a lessons-learned review, updating incident response procedures, and documenting findings for future reference and regulatory compliance.",
+        "keyTerms": [
+          "Incident Response",
+          "NIST SP 800-61",
+          "Preparation",
+          "Detection",
+          "Containment",
+          "Eradication",
+          "Recovery",
+          "Lessons Learned",
+          "SIEM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "access-controls",
+    "number": 3,
+    "title": "Access Controls Concepts",
+    "description": "Physical and logical access control mechanisms, identity management, and access control models including DAC, MAC, and RBAC.",
+    "topics": [
+      {
+        "id": "physical-access",
+        "title": "Physical Access Controls",
+        "content": "Physical access controls are security measures designed to prevent unauthorized physical access to facilities, equipment, and resources. They represent the first line of defense in a layered security strategy and protect against threats such as theft, vandalism, and unauthorized entry.\n\nPhysical controls include perimeter defenses such as fences, gates, bollards, and security lighting. Building access mechanisms include locks (mechanical and electronic), badge readers, biometric scanners, mantraps (access control vestibules), and security guards. Environmental controls such as fire suppression systems, HVAC monitoring, and water detection sensors protect physical infrastructure.\n\nSurveillance systems including CCTV cameras and motion detectors provide both deterrent and detective capabilities. Visitor management procedures, escort requirements, and access logs contribute to accountability. Physical security should follow the defense-in-depth principle, implementing multiple layers of controls so that the failure of one control does not compromise overall security.",
+        "keyTerms": [
+          "Physical Controls",
+          "Mantrap",
+          "Badge Reader",
+          "Biometric Scanner",
+          "CCTV",
+          "Defense in Depth",
+          "Bollards",
+          "Access Control Vestibule"
+        ]
+      },
+      {
+        "id": "logical-access",
+        "title": "Logical Access Controls",
+        "content": "Logical access controls are technology-based mechanisms that restrict access to systems, networks, and data. They enforce authorization policies by determining which subjects (users, processes, or devices) can access specific objects (files, databases, applications).\n\nCommon logical access controls include user account management, password policies, access control lists (ACLs), and group policies. Identity management systems centralize the provisioning, modification, and de-provisioning of user accounts across multiple systems. Single Sign-On (SSO) allows users to authenticate once and access multiple related systems without re-entering credentials.\n\nSession management controls include automatic timeouts, screen locks, and session termination policies. Account lockout policies disable accounts after a specified number of failed login attempts, protecting against brute-force attacks. Privileged access management provides additional controls for administrative accounts, including just-in-time access provisioning and enhanced monitoring of privileged activities.",
+        "keyTerms": [
+          "ACL",
+          "SSO",
+          "Identity Management",
+          "Session Management",
+          "Account Lockout",
+          "Privileged Access Management",
+          "Provisioning"
+        ]
+      },
+      {
+        "id": "access-models",
+        "title": "Access Control Models",
+        "content": "Access control models define the rules and frameworks for granting or denying access to resources. The three primary models are Discretionary Access Control (DAC), Mandatory Access Control (MAC), and Role-Based Access Control (RBAC).\n\nDiscretionary Access Control allows the resource owner to determine who can access their resources. The owner has the discretion to grant or revoke permissions. While flexible, DAC is vulnerable to Trojan horse attacks and does not enforce organizational security policies consistently. Most consumer operating systems use DAC by default.\n\nMandatory Access Control uses security labels and clearance levels to enforce access decisions. Both subjects and objects are assigned classification labels, and the system enforces access based on comparing these labels. MAC is used in high-security environments such as military and government systems. Users cannot override MAC policies regardless of resource ownership.\n\nRole-Based Access Control assigns permissions to roles rather than individual users. Users are then assigned to roles based on their job functions. RBAC simplifies administration in large organizations and directly supports the principle of least privilege and separation of duties. It is the most widely adopted model in enterprise environments.",
+        "keyTerms": [
+          "DAC",
+          "MAC",
+          "RBAC",
+          "Security Labels",
+          "Clearance Levels",
+          "Role Assignment",
+          "Separation of Duties"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "network-security",
+    "number": 4,
+    "title": "Network Security",
+    "description": "Network architecture, protocols, perimeter defense mechanisms, and secure communication technologies.",
+    "topics": [
+      {
+        "id": "osi-tcpip",
+        "title": "OSI and TCP/IP Models",
+        "content": "The OSI (Open Systems Interconnection) model is a conceptual framework consisting of seven layers that standardizes how network communication functions. From bottom to top: Physical (Layer 1) handles raw bit transmission over physical media; Data Link (Layer 2) manages frame-level communication and MAC addressing; Network (Layer 3) handles logical addressing and routing via IP; Transport (Layer 4) provides end-to-end communication through TCP and UDP; Session (Layer 5) manages communication sessions; Presentation (Layer 6) handles data format translation and encryption; and Application (Layer 7) interfaces directly with user applications.\n\nThe TCP/IP model is a simplified four-layer model that maps to the OSI framework: Network Interface (OSI Layers 1-2), Internet (OSI Layer 3), Transport (OSI Layer 4), and Application (OSI Layers 5-7). TCP/IP is the practical model used in real-world networking and forms the basis of internet communication.\n\nUnderstanding these models is essential for identifying where security controls should be applied. Firewalls typically operate at Layers 3-4 (packet filtering) or Layer 7 (application-layer filtering). Encryption can be applied at multiple layers, from IPsec at Layer 3 to TLS/SSL at Layers 5-6.",
+        "keyTerms": [
+          "OSI Model",
+          "TCP/IP",
+          "Layer 3",
+          "Layer 4",
+          "Layer 7",
+          "TCP",
+          "UDP",
+          "IP Addressing",
+          "MAC Address"
+        ]
+      },
+      {
+        "id": "network-defense",
+        "title": "Network Defense and Perimeter Security",
+        "content": "Network perimeter security involves implementing controls at the boundary between trusted internal networks and untrusted external networks. Firewalls are the primary perimeter defense mechanism and operate at various levels of sophistication.\n\nPacket-filtering firewalls examine individual packets against a set of rules based on source and destination IP addresses, ports, and protocols. Stateful inspection firewalls track the state of active connections and make decisions based on the context of traffic flows. Next-generation firewalls (NGFWs) combine traditional firewall capabilities with intrusion prevention, application awareness, and deep packet inspection.\n\nDemilitarized zones (DMZs) are network segments that sit between the internal network and the external network. Public-facing servers such as web servers and email servers are placed in the DMZ, providing a buffer that prevents direct access to internal resources. Network segmentation divides the network into isolated zones, limiting lateral movement by attackers who breach the perimeter.\n\nIntrusion Detection Systems (IDS) monitor network traffic for suspicious activity and generate alerts. Intrusion Prevention Systems (IPS) go further by automatically blocking detected threats. Both can operate using signature-based detection (matching known attack patterns) or anomaly-based detection (identifying deviations from established baselines).",
+        "keyTerms": [
+          "Firewall",
+          "Stateful Inspection",
+          "NGFW",
+          "DMZ",
+          "IDS",
+          "IPS",
+          "Network Segmentation",
+          "Deep Packet Inspection"
+        ]
+      },
+      {
+        "id": "secure-protocols",
+        "title": "Secure Communication Protocols",
+        "content": "Secure communication protocols protect data in transit across networks. Transport Layer Security (TLS), the successor to SSL, encrypts communication between clients and servers and is the standard for securing web traffic (HTTPS). TLS uses a handshake process to establish a secure session, negotiating cipher suites and exchanging cryptographic keys.\n\nVirtual Private Networks (VPNs) create encrypted tunnels over public networks, enabling secure remote access to organizational resources. IPsec VPNs operate at the network layer and can function in transport mode (encrypting only the payload) or tunnel mode (encrypting the entire packet). SSL/TLS VPNs operate at higher layers and are commonly used for browser-based remote access.\n\nCommon secure protocols include SSH (Secure Shell) for encrypted remote administration, SFTP and SCP for secure file transfer, and S/MIME and PGP for email encryption. DNS Security Extensions (DNSSEC) add authentication to DNS responses, preventing DNS spoofing attacks. Organizations should enforce the use of secure protocols and disable legacy insecure alternatives such as Telnet, FTP, and HTTP.",
+        "keyTerms": [
+          "TLS",
+          "SSL",
+          "VPN",
+          "IPsec",
+          "SSH",
+          "SFTP",
+          "HTTPS",
+          "DNSSEC",
+          "Cipher Suite",
+          "Tunnel Mode"
+        ]
+      },
+      {
+        "id": "ports-protocols",
+        "title": "Common Ports and Protocols",
+        "content": "Network services communicate through standardized port numbers. Security professionals must be familiar with common ports to configure firewalls, analyze network traffic, and identify potential threats.\n\nWell-known ports (0-1023) include: HTTP (80), HTTPS (443), FTP (20/21), SSH (22), Telnet (23), SMTP (25), DNS (53), DHCP (67/68), TFTP (69), POP3 (110), IMAP (143), SNMP (161/162), LDAP (389), and LDAPS (636). Registered ports (1024-49151) include commonly used services like SQL Server (1433), Oracle (1521), MySQL (3306), RDP (3389), and SIP (5060).\n\nUnderstanding the distinction between TCP and UDP is critical. TCP provides reliable, connection-oriented communication with error checking and ordered delivery. It is used for applications requiring guaranteed delivery such as web browsing, email, and file transfers. UDP provides connectionless, best-effort delivery with lower overhead, suitable for time-sensitive applications such as DNS queries, VoIP, video streaming, and DHCP.\n\nPort scanning is a reconnaissance technique used by both attackers and security professionals to identify open ports and running services on target systems. Organizations should close unnecessary ports and disable unused services to minimize the attack surface.",
+        "keyTerms": [
+          "Port 80",
+          "Port 443",
+          "Port 22",
+          "Port 53",
+          "Port 3389",
+          "TCP",
+          "UDP",
+          "Attack Surface",
+          "Port Scanning"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "security-operations",
+    "number": 5,
+    "title": "Security Operations",
+    "description": "Data security, system hardening, security awareness, change management, and operational security best practices.",
+    "topics": [
+      {
+        "id": "data-security",
+        "title": "Data Security and Handling",
+        "content": "Data security encompasses the practices and technologies used to protect digital information from unauthorized access, corruption, or theft throughout its lifecycle. Data exists in three states: at rest (stored on media), in transit (moving across networks), and in use (being processed in memory).\n\nData classification assigns sensitivity levels to information to determine the appropriate security controls. Common classification schemes include: Public (no impact if disclosed), Internal (limited impact), Confidential (significant impact), and Restricted/Top Secret (severe impact). Government classifications typically follow Unclassified, Confidential, Secret, and Top Secret categories.\n\nData handling procedures must address the entire data lifecycle: creation, storage, use, sharing, archiving, and destruction. Secure data destruction methods include physical destruction (shredding, degaussing, incineration), cryptographic erasure (destroying encryption keys), and secure overwriting. Organizations must comply with data retention policies that specify how long different types of data must be preserved and when they must be destroyed.\n\nData Loss Prevention (DLP) systems monitor and control data transfers to prevent unauthorized disclosure of sensitive information. DLP can be implemented at the network level, endpoint level, or cloud level.",
+        "keyTerms": [
+          "Data at Rest",
+          "Data in Transit",
+          "Data in Use",
+          "Data Classification",
+          "DLP",
+          "Degaussing",
+          "Cryptographic Erasure",
+          "Data Retention"
+        ]
+      },
+      {
+        "id": "system-hardening",
+        "title": "System Hardening and Configuration",
+        "content": "System hardening is the process of reducing the attack surface of a system by eliminating unnecessary software, services, and access points. A hardened system has only the minimum required functionality enabled, making it more resistant to exploitation.\n\nKey hardening practices include: removing or disabling unnecessary services and protocols, applying security patches and updates promptly, configuring strong authentication mechanisms, implementing host-based firewalls, enabling audit logging, and using secure baseline configurations. Security benchmarks from organizations such as the Center for Internet Security (CIS) provide detailed hardening guidelines for various operating systems and applications.\n\nPatch management is a critical component of system hardening. Organizations must establish processes for identifying, testing, and deploying security patches in a timely manner. Vulnerability scanning tools identify systems with missing patches or misconfigurations. Configuration management ensures that systems maintain their hardened state over time and that changes are tracked and authorized.\n\nEndpoint protection technologies include antivirus and anti-malware software, host-based intrusion detection systems (HIDS), application whitelisting, and endpoint detection and response (EDR) solutions. These tools work together to protect individual systems from threats.",
+        "keyTerms": [
+          "System Hardening",
+          "Patch Management",
+          "CIS Benchmarks",
+          "Vulnerability Scanning",
+          "EDR",
+          "Configuration Management",
+          "Attack Surface"
+        ]
+      },
+      {
+        "id": "security-policies",
+        "title": "Security Policies and Governance",
+        "content": "Security policies are formal documents that define an organization's approach to information security. They establish the rules, guidelines, and expectations for protecting information assets and are approved by senior management.\n\nThe policy hierarchy typically consists of: Policies (high-level mandatory directives), Standards (specific mandatory requirements), Procedures (step-by-step instructions), and Guidelines (recommended but not mandatory practices). For example, a policy might state that all sensitive data must be encrypted, a standard might specify AES-256 encryption, a procedure would detail the steps for implementing encryption, and a guideline might recommend specific encryption tools.\n\nKey security policies include: Acceptable Use Policy (AUP), which defines how organizational resources may be used; Information Security Policy, which outlines the overall security strategy; Access Control Policy, which defines how access is granted and managed; Incident Response Policy, which establishes procedures for handling security incidents; and Data Classification Policy, which defines how data should be categorized and protected.\n\nSecurity awareness training is essential for ensuring that all personnel understand their security responsibilities. Training programs should cover topics such as phishing recognition, password security, clean desk policies, social engineering awareness, and reporting procedures for security incidents.",
+        "keyTerms": [
+          "Security Policy",
+          "AUP",
+          "Standards",
+          "Procedures",
+          "Guidelines",
+          "Security Awareness",
+          "Clean Desk Policy",
+          "Social Engineering"
+        ]
+      },
+      {
+        "id": "change-management",
+        "title": "Change Management and Operations",
+        "content": "Change management is a structured approach to transitioning systems, processes, and technologies from their current state to a desired future state. In the context of security operations, change management ensures that modifications to IT systems do not introduce vulnerabilities or disrupt services.\n\nA formal change management process typically includes: submitting a change request documenting the proposed modification and its justification; conducting a risk assessment to evaluate potential impacts; obtaining approval from a Change Advisory Board (CAB) or designated authority; implementing the change during an approved maintenance window; testing to verify the change was successful; and documenting the results for future reference.\n\nEmergency changes may bypass normal approval processes when immediate action is required to address critical security threats. However, these changes must still be documented and reviewed retroactively. Unauthorized changes, or changes that bypass the established process, represent a significant security risk and should be treated as policy violations.\n\nSeparation of duties in change management ensures that the person requesting a change is not the same person approving or implementing it. This principle prevents a single individual from introducing unauthorized modifications without oversight.",
+        "keyTerms": [
+          "Change Management",
+          "CAB",
+          "Change Request",
+          "Maintenance Window",
+          "Separation of Duties",
+          "Emergency Change",
+          "Risk Assessment"
+        ]
+      }
+    ]
+  }
+]
