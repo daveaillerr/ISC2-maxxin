@@ -4,6 +4,7 @@
     "number": 1,
     "title": "Security Principles",
     "description": "Foundational security concepts including the CIA Triad, authentication, authorization, non-repudiation, privacy, and risk management frameworks.",
+    "coveragePercentage": 26,
     "topics": [
       {
         "id": "cia-triad",
@@ -72,6 +73,7 @@
     "number": 2,
     "title": "Business Continuity, Disaster Recovery & Incident Response",
     "description": "Planning and procedures for maintaining operations during disruptions, recovering from disasters, and responding to security incidents.",
+    "coveragePercentage": 10,
     "topics": [
       {
         "id": "bc-planning",
@@ -121,8 +123,9 @@
   {
     "id": "access-controls",
     "number": 3,
-    "title": "Access Controls Concepts",
+    "title": "Access Controls",
     "description": "Physical and logical access control mechanisms, identity management, and access control models including DAC, MAC, and RBAC.",
+    "coveragePercentage": 22,
     "topics": [
       {
         "id": "physical-access",
@@ -174,6 +177,7 @@
     "number": 4,
     "title": "Network Security",
     "description": "Network architecture, protocols, perimeter defense mechanisms, and secure communication technologies.",
+    "coveragePercentage": 24,
     "topics": [
       {
         "id": "osi-tcpip",
@@ -246,6 +250,7 @@
     "number": 5,
     "title": "Security Operations",
     "description": "Data security, system hardening, security awareness, change management, and operational security best practices.",
+    "coveragePercentage": 18, 
     "topics": [
       {
         "id": "data-security",

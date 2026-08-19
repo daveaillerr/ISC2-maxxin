@@ -15,10 +15,10 @@ export function Navbar() {
   const isActive = (path: string) => location.pathname.startsWith(path);
 
   return (
-    <header className="bg-isc2-green">
+    <header className="relative z-50 bg-isc2-green">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
-        <Link to="/" className="text-lg font-bold tracking-tight text-white">
-          ISC2 CC Reviewer
+        <Link to="/" className="flex items-center gap-2 text-lg font-bold tracking-tight text-white hover:opacity-90 transition-opacity">
+          <span>ISC2-MAXXIN</span>
         </Link>
 
         {/* Desktop navigation */}
@@ -27,10 +27,10 @@ export function Navbar() {
             <Link
               key={link.to}
               to={link.to}
-              className={`text-sm font-medium transition-colors ${
+              className={`text-sm font-semibold transition-all ${
                 isActive(link.to)
-                  ? 'border-b-2 border-white pb-0.5 text-white'
-                  : 'text-white/70 hover:text-white'
+                  ? 'border-b-2 border-white pb-1 text-white'
+                  : 'text-white/80 hover:text-white'
               }`}
             >
               {link.label}
@@ -41,24 +41,24 @@ export function Navbar() {
         {/* Mobile toggle */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="text-white md:hidden"
+          className="text-white md:hidden hover:opacity-90 transition-opacity"
           aria-label="Toggle navigation"
         >
-          {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+          {mobileOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </nav>
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="border-t border-white/10 px-6 pb-4 md:hidden">
+        <div className="border-t border-white/10 bg-isc2-green px-6 pb-4 md:hidden shadow-lg">
           {navLinks.map((link) => (
             <Link
               key={link.to}
               to={link.to}
               onClick={() => setMobileOpen(false)}
-              className={`block py-3 text-sm font-medium ${
+              className={`block py-3 text-sm font-semibold transition-colors ${
                 isActive(link.to)
-                  ? 'text-white'
+                  ? 'text-white border-l-2 border-white pl-2'
                   : 'text-white/70 hover:text-white'
               }`}
             >

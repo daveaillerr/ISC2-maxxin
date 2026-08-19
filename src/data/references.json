@@ -1,44 +1,58 @@
 [
   {
     "id": "ref-1",
-    "title": "ISC2 Official CC Certification Outline",
-    "description": "The official exam outline and syllabus provided by ISC2, detailing the exact weighted domains and testing format.",
-    "url": "https://www.isc2.org/Certifications/CC/Exam-Outline",
-    "category": "Official ISC2"
+    "title": "ISC2 Official CC Certification Resources",
+    "description": "The official self-paced learning content provided by ISC2, detailing the topics on domains with additional learning experience.",
+    "url": "https://isc2.obrizum.io/org/cc",
+    "category": "Free Official ISC2"
   },
   {
     "id": "ref-2",
-    "title": "NIST Cybersecurity Framework (CSF)",
-    "description": "Fundamental reading for Domain 5. Understand the Identify, Protect, Detect, Respond, Recover lifecycle.",
-    "url": "https://www.nist.gov/cyberframework",
-    "category": "Frameworks & Standards"
+    "title": "AyemunHossain: ISC2-CC-Study-Material-Dump-Questions",
+    "description": "Compiled study materials and questions for ISC2 CC exam preparation, including notes, practice questions and more.",
+    "url": "https://github.com/AyemunHossain/ISC2-CC-Dump-Questions-Study-Material",
+    "category": "Free Compiled Resources"
   },
   {
     "id": "ref-3",
-    "title": "NIST SP 800-61 Rev. 2: Incident Handling Guide",
-    "description": "The definitive guide on the Incident Response lifecycle (Preparation, Detection, Containment, Eradication, Recovery).",
-    "url": "https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final",
-    "category": "Frameworks & Standards"
+    "title": "ISC2 Self-Paced Summary Reviewer ",
+    "description": "D-day reading for preparing for the ISC2 CC exam. A concise summary of all domains and topics, ideal for last-minute review.",
+    "url": "https://drive.google.com/file/d/1VzswBJ__Mo79ti6USwLgu-VvhTQkquAT/view?usp=sharing",
+    "category": "Free Compiled Resources"
   },
   {
     "id": "ref-4",
-    "title": "CIS Controls and Benchmarks",
-    "description": "Crucial for system hardening. Center for Internet Security best practices for securing systems and data.",
-    "url": "https://www.cisecurity.org/cis-benchmarks/",
-    "category": "Frameworks & Standards"
+    "title": "ISC2 CC Full Course 2026 Video",
+    "description": "A comprehensive video course covering all domains and topics for the ISC2 CC exam, providing in-depth explanations and examples.",
+    "url": "https://www.youtube.com/watch?v=vHkF5divLBY&t=6733s",
+    "category": "Free Video Lecture"
   },
   {
     "id": "ref-5",
-    "title": "OSI Model vs TCP/IP Mapping Reference",
-    "description": "A comprehensive breakdown of network protocols mapped to their respective OSI and TCP/IP layers.",
-    "url": "https://en.wikipedia.org/wiki/OSI_model#Comparison_with_TCP/IP_model",
-    "category": "Networking Reference"
+    "title": "ISC2 CC Coffee Dose with Prabh Nair",
+    "description": "A series of short videos providing quick insights and tips for the ISC2 CC exam questions.",
+    "url": "https://youtu.be/0F3QP2Bt1KI?list=PL0hT6hgexlYw-k6GxQf_DIAPdc96T2MP-",
+    "category": "Free Video Lecture"
   },
   {
     "id": "ref-6",
-    "title": "Common Ports and Protocols Cheat Sheet",
-    "description": "Quick reference list of common network ports (e.g., 22 SSH, 53 DNS, 443 HTTPS) crucial for the exam.",
-    "url": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers",
-    "category": "Networking Reference"
+    "title": "IBM and ISC2 Cybersecurity Specialist Professional Certificate",
+    "description": "A professional certificate program offered by IBM in collaboration with ISC2, covering essential cybersecurity skills and knowledge for aspiring professionals.",
+    "url": "https://www.coursera.org/professional-certificates/ibm-isc2-cybersecurity-specialist",
+    "category": "Paid Course"
+  },
+  {
+    "id": "ref-7",
+    "title": "Exam Guide for ISC2 with Community",
+    "description": "An exam guide for the ISC2 CC certification, including tips and strategies from the community.",
+    "url": "https://www.reddit.com/r/isc2/comments/139a0lc/passed_isc2_cc_certified_in_cybersecurity_huge/",
+    "category": "Free Compiled Resources"
+  },
+  {
+    "id": "ref-8",
+    "title": "ISC2 Video Practice Exam 2025",
+    "description": "A video-based practice exam for the ISC2 CC certification, providing set of questions to assess readiness and identify areas for improvement.",
+    "url": "https://youtu.be/QwxAV_rKJE4?list=PLVhESdqFWd1leFIm4vUVEA5TIBk_glmoo",
+    "category": "Free Video Practice"
   }
 ]
