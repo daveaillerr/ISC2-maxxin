@@ -22,9 +22,9 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-bold text-white mb-2">Support</h3>
             <ul className="text-xs text-white/60 space-y-1">
-              <li>Documentation</li>
-              <li>FAQ</li>
-              <li>Contact</li>
+              <li><a href="https://www.isc2.org" target="_blank" rel="noreferrer"  >ISC2</a></li>
+              <li><a href="https://www.isc2.org/frequently-asked-questions" target="_blank" rel="noreferrer"  >FAQ</a></li>
+              <li><a href="mailto:drivas.aillerr@gmail.com" target="_blank" rel="noreferrer"  >Contact Dev</a></li>
             </ul>
           </div>
         </div>

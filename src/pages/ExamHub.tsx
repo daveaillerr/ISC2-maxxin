@@ -287,7 +287,7 @@ export function ExamHub() {
         <div className="rounded-xl border border-border bg-white p-6">
           <h3 className="font-bold text-slate-primary mb-3">Full Exam</h3>
           <p className="text-sm text-slate-muted leading-relaxed">
-            Complete simulation of the actual ISC2 CC certification exam with
+            Simulation of the ISC2 CC certification exam with
             time constraints.
           </p>
         </div>
