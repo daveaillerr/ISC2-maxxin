@@ -77,7 +77,7 @@ export function Reviewer() {
           </div>
           
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {filteredDomains.map((d, idx) => (
+            {filteredDomains.map((d) => (
               <Link
                 key={d.id}
                 to={`/reviewer/${d.id}`}

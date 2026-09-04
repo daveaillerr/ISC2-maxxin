@@ -52,7 +52,6 @@ export function ExamResults() {
   const scaledScore = Math.round((attempt.score / attempt.totalQuestions) * 1000);
   const flaggedCount = attempt.flagged.length;
   const correctCount = attempt.score;
-  const incorrectCount = attempt.totalQuestions - attempt.score;
 
   // Get questions for review
   const reviewQuestions = Object.keys(attempt.answers).map((qId) => {
@@ -154,7 +153,7 @@ export function ExamResults() {
                 <Tooltip
                   cursor={{ fill: '#F8FAFC' }}
                   contentStyle={{ borderRadius: '8px', border: '1px solid #E2E8F0', fontSize: '12px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }}
-                  formatter={(val: number) => [`${val}%`, 'Score']}
+                  formatter={(value) => [`${value ?? 0}%`, 'Score']}
                   labelFormatter={(label, payload) => payload[0]?.payload.fullName || label}
                 />
                 <Bar dataKey="percentage" radius={[8, 8, 0, 0]}>
