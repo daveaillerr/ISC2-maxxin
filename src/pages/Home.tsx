@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { BookOpen, ClipboardCheck, ArrowRight, ShieldCheck, TrendingUp, Target, Zap, Calendar } from 'lucide-react';
+import { BookOpen, ClipboardCheck, ArrowRight, ShieldCheck, TrendingUp, Target, Calendar } from 'lucide-react';
 import domains from '../data/domains.json';
 import type { ExamAttempt } from '../types';
 
@@ -20,9 +20,9 @@ export function Home() {
       <section className="mb-16">
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:grid-rows-2">
           {/* Main Hero Card - Spans 2 columns and 2 rows */}
-          <div className="lg:col-span-2 lg:row-span-2 rounded-2xl border border-border bg-gradient-to-br from-isc2-green/10 to-slate-50 p-10 shadow-sm hover:shadow-lg transition-all">
+          <div className="lg:col-span-2 lg:row-span-2 rounded-2xl border border-border bg-white p-10 hover:shadow-md transition-all">
             <div className="flex items-start gap-4 mb-6">
-              <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-gradient-to-br from-isc2-green to-isc2-green-light text-white shadow-md">
+              <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-isc2-green text-white">
                 <ShieldCheck size={28} />
               </div>
               <span className="text-sm font-bold uppercase tracking-widest text-isc2-green pt-1 mt-3.5">
@@ -58,7 +58,7 @@ export function Home() {
           {/* Stats Cards - Right column */}
           {stats && (
             <>
-              <div className="rounded-2xl border border-border bg-white p-6 shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+              <div className="rounded-2xl border border-border bg-white p-6 hover:shadow-md transition-all flex flex-col justify-between">
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-xs font-semibold text-slate-muted mb-2">TOTAL ATTEMPTS</p>
@@ -69,7 +69,7 @@ export function Home() {
                 <p className="text-xs text-slate-muted">Completed exams</p>
               </div>
 
-              <div className="rounded-2xl border border-border bg-white p-6 shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+              <div className="rounded-2xl border border-border bg-white p-6 hover:shadow-md transition-all flex flex-col justify-between">
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-xs font-semibold text-slate-muted mb-2">PASS RATE</p>
@@ -84,121 +84,46 @@ export function Home() {
         </div>
       </section>
 
-      {/* Examination Details Summary */}
       <section className="mb-16">
         <h2 className="mb-2 text-2xl font-bold text-slate-primary">Examination Details</h2>
         <p className="mb-8 text-slate-muted">Coverage overview and key exam information</p>
-        
-        <div className="grid gap-6 lg:grid-cols-4 mb-8">
-          {/* Exam Details Cards */}
-          <div className="rounded-2xl border border-border bg-white p-6 shadow-sm">
-            <div className="flex items-start justify-between mb-4">
-              <div>
-                <p className="text-xs font-semibold text-slate-muted mb-1">TOTAL QUESTIONS</p>
-                <p className="text-3xl font-bold text-slate-primary">100</p>
-              </div>
-            </div>
-            <p className="text-xs text-slate-muted">Comprehensive assessment</p>
+        <div className="variant-1-score-grid">
+          <div className="variant-1-card" data-accent="true">
+            <span className="variant-1-label">Total Questions</span>
+            <div className="variant-1-value">100</div>
+            <div className="variant-1-note">Comprehensive assessment</div>
           </div>
-
-          <div className="rounded-2xl border border-border bg-white p-6 shadow-sm">
-            <div className="flex items-start justify-between mb-4">
-              <div>
-                <p className="text-xs font-semibold text-slate-muted mb-1">TIME LIMIT</p>
-                <p className="text-3xl font-bold text-slate-primary">120m</p>
-              </div>
-            </div>
-            <p className="text-xs text-slate-muted">Full exam duration</p>
+          <div className="variant-1-card">
+            <span className="variant-1-label">Time Limit</span>
+            <div className="variant-1-value">120m</div>
+            <div className="variant-1-note">Full exam duration</div>
           </div>
-
-          <div className="rounded-2xl border border-border bg-white p-6 shadow-sm">
-            <div className="flex items-start justify-between mb-4">
-              <div>
-                <p className="text-xs font-semibold text-slate-muted mb-1">PASSING SCORE</p>
-                <p className="text-3xl font-bold text-isc2-green">700</p>
-              </div>
-            </div>
-            <p className="text-xs text-slate-muted">out of 1000</p>
+          <div className="variant-1-card" data-accent="true">
+            <span className="variant-1-label">Passing Score</span>
+            <div className="variant-1-value">700</div>
+            <div className="variant-1-note">out of 1000</div>
           </div>
-
-          <div className="rounded-2xl border border-border bg-white p-6 shadow-sm">
-            <div className="flex items-start justify-between mb-4">
-              <div>
-                <p className="text-xs font-semibold text-slate-muted mb-1">DOMAINS</p>
-                <p className="text-3xl font-bold text-slate-primary">5</p>
-              </div>
-            </div>
-            <p className="text-xs text-slate-muted">Total coverage areas</p>
+          <div className="variant-1-card">
+            <span className="variant-1-label">Domains</span>
+            <div className="variant-1-value">5</div>
+            <div className="variant-1-note">Total coverage areas</div>
           </div>
         </div>
 
-        {/* Domain Coverage Grid */}
-        <div className="rounded-2xl border border-border bg-white p-8 shadow-sm">
-          <h3 className="mb-6 text-lg font-bold text-slate-primary">Domain Coverage & Topics</h3>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="variant-1-domain-wrap">
+          <div className="variant-1-domain-header">
+            <h3>Domain Coverage & Topics</h3>
+            <span>{domains.length} Domains</span>
+          </div>
+          <div className="variant-1-domain-grid">
             {domains.map((domain) => {
-            const coveragePercentage = Math.min(
-              Math.max(domain.coveragePercentage ?? 0, 0),
-              100
-            );
-
-
+              const pct = Math.min(Math.max(domain.coveragePercentage ?? 0, 0), 100);
               return (
-                <div
-                  key={domain.id}
-                  className="rounded-xl border border-slate-200 p-4 hover:border-isc2-green hover:bg-gradient-to-br hover:from-isc2-green/5 hover:to-transparent transition-all"
-                >
-                  <div className="flex items-start justify-between mb-3">
-                    <div>
-                      <div className="flex items-center gap-2 mb-1">
-                        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-isc2-green text-xs font-bold text-white">
-                          {domain.number}
-                        </span>
-                        <p className="font-semibold text-slate-primary text-sm">
-                          {domain.title}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <p className="text-xs text-slate-muted mb-3 line-clamp-2">
-                    {domain.description}
-                  </p>
-
-                  <div className="space-y-2">
-                    <div className="flex items-center justify-between text-xs">
-                      <span className="text-slate-500">Topics</span>
-                      <span className="font-semibold text-slate-primary">
-                        {domain.topics.length}
-                      </span>
-                    </div>
-
-                    <div className="flex items-center justify-between text-xs">
-                      <span className="text-slate-500">Coverage Percentage</span>
-                      <span
-                        className={`font-semibold ${
-                          coveragePercentage >= 70
-                            ? 'text-isc2-green'
-                            : 'text-amber-600'
-                        }`}
-                      >
-                        {coveragePercentage}%
-                      </span>
-                    </div>
-
-                    <div className="pt-2 border-t border-slate-200">
-                      <div className="w-full bg-slate-100 rounded-full h-2 overflow-hidden">
-                        <div
-                          className={`h-full transition-all ${
-                            coveragePercentage >= 70
-                              ? 'bg-isc2-green'
-                              : 'bg-amber-500'
-                          }`}
-                          style={{ width: `${coveragePercentage}%` }}
-                        />
-                      </div>
-                    </div>
-                  </div>
+                <div key={domain.id} className="variant-1-domain-item">
+                  <p className="variant-1-pct">{pct}%</p>
+                  <p className="variant-1-name">{domain.title}</p>
+                  <div className="variant-1-bar"><span style={{ width: `${pct}%` }} /></div>
+                  <div className="variant-1-meta"><span className="variant-1-dot" /><span>{domain.topics.length} topics</span></div>
                 </div>
               );
             })}
@@ -212,7 +137,7 @@ export function Home() {
           <h2 className="mb-6 text-2xl font-bold text-slate-primary">Recent Activity</h2>
           <Link
             to={`/exam/results/${lastAttempt.id}`}
-            className="block rounded-2xl border border-border bg-white p-8 shadow-sm hover:shadow-lg hover:border-isc2-green transition-all group"
+            className="block rounded-2xl border border-border bg-white p-8 hover:shadow-lg hover:border-isc2-green transition-all group"
           >
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
               <div>
@@ -237,12 +162,12 @@ export function Home() {
               </div>
               <div className="flex flex-col justify-between">
                 <div className="grid grid-cols-2 gap-4 mb-6">
-                  <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg p-4 border border-slate-200">
+                  <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                     <p className="text-xs font-semibold text-slate-muted mb-2">Score</p>
                     <p className="text-3xl font-bold text-slate-primary">{Math.round((lastAttempt.score / lastAttempt.totalQuestions) * 1000)}</p>
                     <p className="text-xs text-slate-muted mt-1">/ 1000</p>
                   </div>
-                  <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg p-4 border border-slate-200">
+                  <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                     <p className="text-xs font-semibold text-slate-muted mb-2">Percentage</p>
                     <p className="text-3xl font-bold text-slate-primary">{Math.round((lastAttempt.score / lastAttempt.totalQuestions) * 100)}%</p>
                   </div>
@@ -290,11 +215,11 @@ export function Home() {
               <Link
                 key={d.id}
                 to={`/reviewer/${d.id}`}
-                className={`${cols} group rounded-2xl border border-border bg-white p-8 shadow-sm hover:shadow-lg hover:border-isc2-green transition-all transform hover:-translate-y-1 flex flex-col justify-between overflow-hidden`}
+                className={`${cols} group rounded-2xl border border-border bg-white p-8 hover:shadow-lg hover:border-isc2-green transition-all flex flex-col justify-between overflow-hidden`}
               >
-                <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-isc2-green/0 to-isc2-green/0 group-hover:from-isc2-green/5 group-hover:to-isc2-green/10 transition-all" />
+                
                 <div className="relative">
-                  <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-isc2-green text-base font-bold text-white shadow-md mb-6">
+                  <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-isc2-green text-base font-bold text-white mb-6">
                     {d.number}
                   </span>
                   <h3 className="text-xl font-bold text-slate-primary group-hover:text-isc2-green transition-colors mb-3">

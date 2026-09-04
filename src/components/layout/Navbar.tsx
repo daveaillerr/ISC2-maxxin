@@ -17,40 +17,25 @@ export function Navbar() {
   return (
     <header className="relative z-50 bg-isc2-green">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
-        <Link to="/" className="flex items-center gap-2 text-lg font-bold tracking-tight text-white hover:opacity-90 transition-opacity">
-          <span>ISC2-MAXXIN</span>
+        <Link to="/" className="nav-v2-brand">
+          <span className="nav-v2-brand-main">ISC2-MAXXIN</span>
+          <span className="nav-v2-brand-sub">CC prep</span>
         </Link>
-
-        {/* Desktop navigation */}
-        <div className="hidden items-center gap-8 md:flex">
+        <div className="nav-v2-links">
           {navLinks.map((link) => (
-            <Link
-              key={link.to}
-              to={link.to}
-              className={`text-sm font-semibold transition-all ${
-                isActive(link.to)
-                  ? 'border-b-2 border-white pb-1 text-white'
-                  : 'text-white/80 hover:text-white'
-              }`}
-            >
+            <Link key={link.to} to={link.to} className={`nav-v2-link ${isActive(link.to) ? 'is-active' : ''}`}>
               {link.label}
             </Link>
           ))}
         </div>
-
-        {/* Mobile toggle */}
-        <button
-          onClick={() => setMobileOpen(!mobileOpen)}
-          className="text-white md:hidden hover:opacity-90 transition-opacity"
-          aria-label="Toggle navigation"
-        >
-          {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+        <button onClick={() => setMobileOpen(!mobileOpen)} className="nav-v2-toggle md:hidden" aria-label="Toggle navigation">
+          {mobileOpen ? <X size={22} /> : <Menu size={22} />}
         </button>
       </nav>
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="border-t border-white/10 bg-isc2-green px-6 pb-4 md:hidden shadow-lg">
+        <div className="border-t border-white/10 bg-isc2-green px-6 pb-4 md:hidden">
           {navLinks.map((link) => (
             <Link
               key={link.to}

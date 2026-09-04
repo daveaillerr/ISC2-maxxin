@@ -25,7 +25,7 @@ export function ReviewerDomain() {
     <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
       {/* Header */}
       <div className="mb-12 flex items-center gap-4">
-        <span className="flex h-14 w-14 items-center justify-center rounded-xl bg-isc2-green text-base font-bold text-white shadow-md">
+        <span className="flex h-14 w-14 items-center justify-center rounded-xl bg-isc2-green text-base font-bold text-white ">
           {domain.number}
         </span>
         <div>
@@ -41,7 +41,7 @@ export function ReviewerDomain() {
       <div className="mt-8 flex gap-8">
         {/* Sidebar */}
         <aside className="hidden w-64 shrink-0 lg:block">
-          <div className="sticky top-24 rounded-2xl border border-border bg-white p-6 shadow-sm">
+          <div className="sticky top-24 rounded-2xl border border-border bg-white p-6 ">
             <Link
               to="/reviewer"
               className="inline-flex items-center gap-2 text-sm font-semibold text-isc2-green hover:text-isc2-green-light mb-6 pb-6 border-b border-border transition-all"
@@ -80,11 +80,11 @@ export function ReviewerDomain() {
                   <h2 className="text-2xl font-bold text-slate-primary mb-2">
                     {topic.title}
                   </h2>
-                  <div className="h-1 w-20 bg-gradient-to-r from-isc2-green to-isc2-green-light rounded-full" />
+                  <div className="h-1 w-20 bg-isc2-green rounded-full" />
                 </div>
               </div>
 
-              <div className="rounded-2xl border border-border bg-white p-8 shadow-sm">
+              <div className="rounded-2xl border border-border bg-white p-8 ">
                 <div className="space-y-6">
                   {topic.content.split('\n\n').map((para, i) => (
                     <p

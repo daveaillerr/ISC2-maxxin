@@ -58,7 +58,7 @@ export function Reviewer() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search topics, terms, and resources..."
-          className="w-full rounded-lg border border-border bg-white py-3.5 pl-12 pr-4 text-sm text-slate-primary placeholder:text-slate-muted focus:border-isc2-green focus:ring-1 focus:ring-isc2-green/20 outline-none transition-all shadow-sm"
+          className="w-full rounded-lg border border-border bg-white py-3.5 pl-12 pr-4 text-sm text-slate-primary placeholder:text-slate-muted focus:border-isc2-green focus:ring-1 focus:ring-isc2-green/20 outline-none transition-all "
         />
       </div>
 
@@ -81,12 +81,12 @@ export function Reviewer() {
               <Link
                 key={d.id}
                 to={`/reviewer/${d.id}`}
-                className="group flex flex-col rounded-2xl border border-border bg-white p-7 shadow-sm hover:shadow-lg hover:border-isc2-green transition-all transform hover:-translate-y-1 overflow-hidden"
+                className="group flex flex-col rounded-2xl border border-border bg-white p-7   hover:border-isc2-green transition-all transform hover:-translate-y-1 overflow-hidden"
               >
-                <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-isc2-green/0 to-isc2-green/0 group-hover:from-isc2-green/5 group-hover:to-isc2-green/10 transition-all" />
+                
                 <div className="relative">
                   <div className="flex items-start justify-between mb-4">
-                    <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-isc2-green text-base font-bold text-white shadow-md">
+                    <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-isc2-green text-base font-bold text-white ">
                       {d.number}
                     </span>
                     <span className="text-xs font-bold text-slate-muted uppercase bg-slate-50 px-2.5 py-1 rounded-full">
@@ -156,7 +156,7 @@ export function Reviewer() {
                 href={ref.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex flex-col rounded-2xl border border-border bg-white p-6 shadow-sm hover:shadow-lg hover:border-blue-500 transition-all transform hover:-translate-y-1"
+                className="group flex flex-col rounded-2xl border border-border bg-white p-6   hover:border-blue-500 transition-all transform hover:-translate-y-1"
               >
                 <div className="mb-4 flex items-start justify-between gap-3">
                   <span className="inline-flex rounded-lg bg-blue-500/10 px-3 py-1 text-xs font-bold uppercase tracking-wider text-blue-600">

@@ -63,10 +63,10 @@ export function ExamResults() {
     <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
       {/* Result Header Banner - Bento Style */}
       <div
-        className={`mb-12 rounded-2xl border p-12 text-center shadow-sm ${
+        className={`mb-12 rounded-2xl border p-12 text-center ${
           attempt.passed
-            ? 'border-isc2-green/30 bg-gradient-to-br from-isc2-green/10 to-slate-50'
-            : 'border-red-300/30 bg-gradient-to-br from-red-50 to-slate-50'
+            ? 'border-isc2-green/30 bg-white'
+            : 'border-red-300/30 bg-white'
         }`}
       >
         <div className="flex justify-center mb-6">
@@ -96,7 +96,7 @@ export function ExamResults() {
 
       {/* Stats Bento Grid */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 mb-12">
-        <div className="rounded-2xl border border-border bg-white p-6 shadow-sm">
+        <div className="rounded-2xl border border-border bg-white p-6">
           <div className="flex items-start justify-between mb-4">
             <div>
               <p className="text-xs font-semibold text-slate-muted mb-1">SCORE</p>
@@ -107,7 +107,7 @@ export function ExamResults() {
           </div>
         </div>
 
-        <div className="rounded-2xl border border-border bg-white p-6 shadow-sm">
+        <div className="rounded-2xl border border-border bg-white p-6">
           <div className="flex items-start justify-between mb-4">
             <div>
               <p className="text-xs font-semibold text-slate-muted mb-1">PERCENTAGE</p>
@@ -117,7 +117,7 @@ export function ExamResults() {
           </div>
         </div>
 
-        <div className="rounded-2xl border border-border bg-white p-6 shadow-sm">
+        <div className="rounded-2xl border border-border bg-white p-6">
           <div className="flex items-start justify-between mb-4">
             <div>
               <p className="text-xs font-semibold text-slate-muted mb-1">CORRECT</p>
@@ -127,7 +127,7 @@ export function ExamResults() {
           </div>
         </div>
 
-        <div className="rounded-2xl border border-border bg-white p-6 shadow-sm">
+        <div className="rounded-2xl border border-border bg-white p-6">
           <div className="flex items-start justify-between mb-4">
             <div>
               <p className="text-xs font-semibold text-slate-muted mb-1">FLAGGED</p>
@@ -141,7 +141,7 @@ export function ExamResults() {
       {/* Performance Details Grid */}
       <div className="grid gap-6 lg:grid-cols-2 mb-12">
         {/* Domain Breakdown */}
-        <div className="rounded-2xl border border-border bg-white p-8 shadow-sm">
+        <div className="rounded-2xl border border-border bg-white p-8">
           <h2 className="mb-6 text-xl font-bold text-slate-primary">
             Domain Performance
           </h2>
@@ -174,7 +174,7 @@ export function ExamResults() {
         </div>
 
         {/* Exam Details */}
-        <div className="rounded-2xl border border-border bg-white p-8 shadow-sm">
+        <div className="rounded-2xl border border-border bg-white p-8">
           <h2 className="mb-6 text-xl font-bold text-slate-primary">
             Exam Details
           </h2>
@@ -264,10 +264,10 @@ export function ExamResults() {
             return (
               <div
                 key={q.id}
-                className={`rounded-2xl border p-6 shadow-sm transition-all ${
+                className={`rounded-2xl border p-6 transition-all ${
                   isCorrect 
-                    ? 'border-isc2-green/20 bg-gradient-to-r from-isc2-green/5 to-transparent' 
-                    : 'border-red-200/30 bg-gradient-to-r from-red-50/50 to-transparent'
+                    ? 'border-isc2-green/20 bg-white' 
+                    : 'border-red-200/30 bg-white'
                 }`}
               >
                 <div className="mb-4 flex items-start justify-between gap-4">

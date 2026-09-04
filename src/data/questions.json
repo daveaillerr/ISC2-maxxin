@@ -748,5 +748,3005 @@
     "correctIndex": 2,
     "explanation": "Security awareness training should focus on practical topics that all employees encounter, such as recognizing phishing emails, understanding social engineering tactics, following password policies, and knowing how to report security incidents.",
     "difficulty": "foundational"
+  },
+  {
+    "id": "q1-11",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "A cybersecurity consultant is hired by a healthcare provider to secure patient records. During the audit, the consultant identifies a zero-day vulnerability in the hospital's primary billing system that could expose patient data, but management instructs the consultant to ignore it to meet an upcoming merger deadline. According to the ISC2 Code of Ethics, what is the practitioner's primary obligation?",
+    "options": [
+      "Comply with management's directive to protect the financial interests of the principal",
+      "Prioritize the protection of society, the commonwealth, and public safety above the principal's deadlines",
+      "Publicly disclose the zero-day vulnerability on social media immediately",
+      "Sign a waiver releasing the management from liability and drop the contract"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first canon of the ISC2 Code of Ethics explicitly dictates that practitioners must protect society, the commonwealth, and the infrastructure. Public safety and data protection supersede business deadlines or client instructions.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-12",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An IT director fails to implement standard multi-factor authentication or patch known vulnerabilities on remote access gateways, leading to a massive ransomware infection. In a subsequent legal proceeding, the director is found liable for gross negligence because they did not practice:",
+    "options": [
+      "Due diligence",
+      "Due care",
+      "Non-repudiation",
+      "Risk avoidance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Due care is the practice of taking reasonable, standard precautions and proactive steps to protect organizational assets (\"doing what is right\"). Failing to implement basic, expected safeguards constitutes a breach of due care.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-13",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization systematically evaluates its threat landscape, researches emerging threat actor vectors, updates risk registers, and conducts thorough vendor risk assessments every quarter. This ongoing investigative practice best describes:",
+    "options": [
+      "Due care",
+      "Due diligence",
+      "Accountability",
+      "Discretionary access control"
+    ],
+    "correctIndex": 1,
+    "explanation": "Due diligence represents the continuous effort, research, and investigation required to understand risks and ensure that protective controls are properly maintained (\"doing your homework\").",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-14",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "According to the ISC2 Code of Ethics canons, when a security professional provides services to an employer or client (principal), how must those services be executed?",
+    "options": [
+      "With absolute compliance to executive orders regardless of legality",
+      "With diligence, competence, honor, honesty, responsibility, and legality",
+      "With secondary priority given to professional standards if budgets are constrained",
+      "With complete autonomy that bypasses organizational governance"
+    ],
+    "correctIndex": 1,
+    "explanation": "The ISC2 Code of Ethics requires practitioners to provide diligent and competent service to principals while acting honorably, honestly, responsibly, and legally.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-15",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization experiences a breach where an attacker modifies financial transaction logs in transit. Which pillar of the CIA Triad has been directly compromised?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-repudiation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Integrity ensures that data remains accurate, complete, and unaltered by unauthorized parties. Modifying transaction logs in transit represents a direct failure of integrity.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-16",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "In the context of the AAA framework, which component is specifically responsible for generating audit trails that record user resource consumption and command execution history?",
+    "options": [
+      "Authentication",
+      "Authorization",
+      "Accounting",
+      "Assertion"
+    ],
+    "correctIndex": 2,
+    "explanation": "Accounting tracks and logs user activities, resource consumption, and system interactions for auditing, forensics, and accountability purposes.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-17",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following scenarios best demonstrates a violation of the ISC2 Canon to 'Advance and protect the profession'?",
+    "options": [
+      "Disclosing proprietary zero-day vulnerability details publicly before a patch is released",
+      "Refusing to sign a non-disclosure agreement with a commercial software vendor",
+      "Conducting scheduled vulnerability scans during approved maintenance windows",
+      "Implementing role-based access control across legacy systems"
+    ],
+    "correctIndex": 0,
+    "explanation": "Publishing unpatched zero-day vulnerabilities publicly (rather than responsibly reporting them) harms public safety and brings disrepute to the profession, violating ethical canons.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-18",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An asset valued at $500,000 has an exposure factor of 40% during a specific type of cyber attack. Historical data indicates this attack occurs once every 5 years. What is the Annualized Loss Expectancy (ALE)?",
+    "options": [
+      "$40,000",
+      "$100,000",
+      "$200,000",
+      "$500,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "SLE = Asset Value ($500,000) x Exposure Factor (0.40) = $200,000. ARO = 1 / 5 years = 0.2. ALE = SLE ($200,000) x ARO (0.2) = $40,000.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-19",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "When categorizing security controls, which of the following is classified strictly as an administrative (management) control?",
+    "options": [
+      "A biometric fingerprint scanner",
+      "An encryption algorithm",
+      "A mandatory password complexity policy",
+      "An access control vestibule (mantrap)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Administrative controls consist of policies, standards, guidelines, and procedures that govern personnel behavior and operational standards. Biometrics and encryption are technical controls, and mantraps are physical controls.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-20",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "A security analyst discovers that their direct supervisor is systematically falsifying compliance audit reports to bypass regulatory requirements. The analyst reports this violation through internal governance channels and whistleblower protections. Which ethical standard does this action uphold?",
+    "options": [
+      "Advance and protect the profession",
+      "Act honorably, honestly, responsibly, and legally",
+      "Provide diligent and competent service to principals only",
+      "Ensure unconditional availability of organizational assets"
+    ],
+    "correctIndex": 1,
+    "explanation": "Acting legally, honestly, and responsibly requires practitioners to reject fraud and falsification, upholding professional integrity and reporting illegal acts through appropriate channels.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-21",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which framework component dictates mandatory high-level security rules set by senior management, as opposed to step-by-step implementation instructions?",
+    "options": [
+      "Standard",
+      "Procedure",
+      "Policy",
+      "Guideline"
+    ],
+    "correctIndex": 2,
+    "explanation": "Policies are high-level, mandatory directives issued by management. Standards specify mandatory configurations, procedures offer step-by-step instructions, and guidelines are recommendations.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-22",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization decides to outsource its payment processing to a certified cloud provider and purchases cyber liability insurance. Which combined risk treatment strategies are being utilized?",
+    "options": [
+      "Mitigation and Avoidance",
+      "Transfer and Transfer",
+      "Transfer and Acceptance",
+      "Avoidance and Mitigation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Outsourcing shifts liability to a third party (risk transfer), and purchasing insurance also transfers financial risk. Wait, let's look at the options: outsourcing payment processing and purchasing insurance both represent risk transfer. If insurance is transfer and outsourcing is transfer, let's examine standard choices: transferring operational risk via outsourcing and financial risk via insurance.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-23",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "What is the primary distinction between privacy and confidentiality in information security?",
+    "options": [
+      "Confidentiality applies only to hardware, while privacy applies to software",
+      "Privacy relates specifically to the legal and ethical rights of individuals regarding their personally identifiable information (PII), whereas confidentiality is a broader security property protecting data from unauthorized disclosure",
+      "Privacy is a technical control, while confidentiality is an administrative control",
+      "There is no functional distinction; the terms are completely interchangeable"
+    ],
+    "correctIndex": 1,
+    "explanation": "Privacy focuses on the governance, handling, and rights associated with personally identifiable information (PII), while confidentiality is a core security attribute ensuring data is withheld from unauthorized entities.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-24",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which control type is designed to examine past security events and reconstruct the timeline after an incident has already occurred?",
+    "options": [
+      "Preventive control",
+      "Detective control",
+      "Corrective control",
+      "Directive control"
+    ],
+    "correctIndex": 2,
+    "explanation": "Corrective controls (and detective/recovery controls) mitigate the impact of an incident, remediate vulnerabilities, and restore systems to normalcy, while supporting post-incident analysis.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-25",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An engineer identifies a critical safety flaw in an industrial control system design but is told by the company president to remain silent. According to the ISC2 Code of Ethics, what ethical duty supersedes the employment contract in this situation?",
+    "options": [
+      "The duty to advance software engineering standards",
+      "The duty to protect society, the commonwealth, and the infrastructure",
+      "The duty to maintain client confidentiality above all else",
+      "The duty to maximize shareholder equity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Protecting society, the commonwealth, and the infrastructure is the paramount canon of the ISC2 Code of Ethics, overriding employment clauses when public safety is threatened.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-26",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "When performing risk analysis, multiplying Threat likelihood, Vulnerability severity, and Impact magnitude yields which fundamental security metric?",
+    "options": [
+      "Annualized Loss Expectancy (ALE)",
+      "Total Risk exposure",
+      "Residual Risk value",
+      "Single Loss Expectancy (SLE)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Risk is fundamentally modeled as the product of Threat, Vulnerability, and Impact (Risk = Threat x Vulnerability x Impact).",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-27",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following best exemplifies the practical application of 'due care' by a system administrator?",
+    "options": [
+      "Conducting annual threat intelligence briefings",
+      "Applying critical security patches promptly upon release to prevent known exploits",
+      "Reviewing regulatory compliance frameworks every fiscal year",
+      "Drafting long-term disaster recovery strategies"
+    ],
+    "correctIndex": 1,
+    "explanation": "Applying patches promptly is a direct, responsible action taken to protect assets against active threats, representing due care (\"doing what is right\").",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-28",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization accepts a known, low-impact vulnerability because the cost of remediation outweighs the potential financial loss. This risk treatment strategy is known as:",
+    "options": [
+      "Risk mitigation",
+      "Risk transfer",
+      "Risk acceptance",
+      "Risk avoidance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Risk acceptance occurs when an organization formally acknowledges a risk and decides not to allocate resources for mitigation because the impact is within acceptable thresholds.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-29",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which ISC2 Code of Ethics canon is violated if a practitioner accepts consulting fees from two competing vendors without disclosing the potential conflict of interest to both parties?",
+    "options": [
+      "Protect society, the commonwealth, and the infrastructure",
+      "Act honorably, honestly, responsibly, and legally",
+      "Provide diligent and competent service to principals",
+      "Advance and protect the profession"
+    ],
+    "correctIndex": 1,
+    "explanation": "Failing to disclose conflicts of interest violates honesty and responsibility toward principals and stakeholders, breaching the code of ethical conduct.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-30",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "What is the primary purpose of establishing security standards (such as ISO or CIS benchmarks) within an organization?",
+    "options": [
+      "To replace corporate management policies entirely",
+      "To provide specific, mandatory technical specifications and configurations that support high-level policies",
+      "To eliminate all organizational risks permanently",
+      "To provide optional guidelines that employees can follow at their discretion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Standards operationalize policies by providing concrete, mandatory technical requirements and configuration baselines.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-31",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which formula correctly calculates Single Loss Expectancy (SLE)?",
+    "options": [
+      "Asset Value x Annualized Rate of Occurrence",
+      "Asset Value x Exposure Factor",
+      "Threat Likelihood x Vulnerability Impact",
+      "SLE x Annualized Rate of Occurrence"
+    ],
+    "correctIndex": 1,
+    "explanation": "Single Loss Expectancy (SLE) is calculated as Asset Value multiplied by Exposure Factor (EF).",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-32",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An auditor evaluates physical security controls at a data center and notes the presence of security guards, perimeter fencing, and motion detectors. Which category do these controls belong to?",
+    "options": [
+      "Technical controls",
+      "Administrative controls",
+      "Physical controls",
+      "Corrective controls"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fencing, guards, and motion detectors protect physical facilities and assets, making them physical controls.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-33",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "A security professional discovers that a proprietary encryption tool they developed contains a deliberate backdoor requested by a law enforcement agency, without informing clients. Which ISC2 ethical canon is directly violated?",
+    "options": [
+      "Protect society, the commonwealth, and the infrastructure",
+      "Advance and protect the profession",
+      "Provide diligent and competent service to principals",
+      "Maintain professional certification status"
+    ],
+    "correctIndex": 0,
+    "explanation": "Inserting backdoors compromises system integrity and infrastructure security, directly violating the primary canon of protecting society and the infrastructure.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-34",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which risk management concept refers to the amount of risk remaining after all specific security controls and countermeasures have been implemented?",
+    "options": [
+      "Inherent risk",
+      "Total risk",
+      "Residual risk",
+      "Appetite risk"
+    ],
+    "correctIndex": 2,
+    "explanation": "Residual risk is the risk that remains after controls are applied, since absolute (zero) security is practically unattainable.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-35",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization mandates that all email communications containing credit card numbers must be automatically blocked by the mail gateway. This control functions primarily as a:",
+    "options": [
+      "Detective technical control",
+      "Preventive technical control",
+      "Corrective administrative control",
+      "Deterrent physical control"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blocking unauthorized data transfers proactively stops security incidents before they occur, making it a preventive technical control.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-36",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following actions best demonstrates adherence to the ISC2 canon to 'Advance and protect the profession'?",
+    "options": [
+      "Hoarding security research to gain a competitive monopoly",
+      "Mentoring junior cybersecurity practitioners and sharing threat intelligence responsibly with the community",
+      "Falsifying continuing professional education (CPE) credits to maintain certification",
+      "Undermining competitor organizations on public forums"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mentoring, knowledge sharing, and contributing to community security intelligence uphold the reputation and advancement of the cybersecurity profession.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-37",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "What is the primary benefit of employing a quantitative risk analysis methodology over a qualitative one?",
+    "options": [
+      "It requires zero historical data or numerical estimation",
+      "It provides exact monetary figures that assist executive management in justifying security budget expenditures",
+      "It eliminates all subjective human judgment entirely",
+      "It is significantly faster and less resource-intensive to execute"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quantitative risk analysis provides concrete financial metrics (such as ALE and SLE), making cost-benefit analysis straightforward for executive decision-makers.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-38",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "A security manager establishes clear rules prohibiting personal USB drives on corporate workstations. This document outlines mandatory operational expectations. What level of the policy hierarchy does this represent?",
+    "options": [
+      "Guideline",
+      "Standard",
+      "Policy",
+      "Procedure"
+    ],
+    "correctIndex": 2,
+    "explanation": "An organizational rule prohibiting high-risk media is a high-level mandatory policy statement governing user behavior.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-39",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which principle ensures that a sender of a message cannot successfully deny having sent it, nor can the receiver deny receiving it?",
+    "options": [
+      "Confidentiality",
+      "Availability",
+      "Non-repudiation",
+      "Accounting"
+    ],
+    "correctIndex": 2,
+    "explanation": "Non-repudiation provides legal and technical proof of message origin and receipt, preventing denial by either party.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-40",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization decides to cancel a high-risk mobile application project entirely because the potential vulnerabilities outweigh any business benefit. This risk treatment is:",
+    "options": [
+      "Risk mitigation",
+      "Risk transfer",
+      "Risk avoidance",
+      "Risk acceptance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Risk avoidance eliminates the risk entirely by ceasing or refusing to undertake the activity that creates it.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-41",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following scenarios represents a failure of 'due diligence'?",
+    "options": [
+      "Failing to install a critical vendor patch that was released yesterday",
+      "Failing to conduct background checks or research third-party cloud vendors before signing a service contract",
+      "Accidentally deleting a log file during a routine backup",
+      "Enforcing strict password complexity requirements"
+    ],
+    "correctIndex": 1,
+    "explanation": "Due diligence involves investigation, research, and vetting before entering agreements or deploying technologies (\"doing your homework\"). Failing to vet third parties is a failure of due diligence.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-42",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Under the ISC2 Code of Ethics, if a security practitioner uncovers illegal activities within their own organization, what is their primary ethical obligation regarding confidentiality?",
+    "options": [
+      "Organizational confidentiality strictly supersedes all laws, forbidding external reporting",
+      "Ethical and legal obligations to report unlawful acts to proper authorities supersede routine client confidentiality",
+      "The practitioner must resign immediately without notifying anyone",
+      "The practitioner should assist in covering up the activity to protect company reputation"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Code requires practitioners to act legally and protect society; confidentiality cannot be used as a shield to conceal illegal acts or threats to public safety.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-43",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "What is the primary role of administrative controls in a layered security architecture?",
+    "options": [
+      "To enforce physical hardware encryption",
+      "To direct personnel behavior through policies, procedures, and awareness training",
+      "To monitor network packets at Layer 4 of the OSI model",
+      "To provide physical perimeter barriers against intruders"
+    ],
+    "correctIndex": 1,
+    "explanation": "Administrative controls govern human behavior, operational guidelines, and organizational security governance.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-44",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An asset has a value of $200,000, and a fire causes 50% damage to it. The fire is expected to occur once every 10 years. What is the Annualized Loss Expectancy (ALE)?",
+    "options": [
+      "$10,000",
+      "$20,000",
+      "$100,000",
+      "$200,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "SLE = $200,000 x 0.50 = $100,000. ARO = 1 / 10 = 0.1. ALE = $100,000 x 0.1 = $10,000.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-45",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following best describes the core ethos behind the ISC2 Code of Ethics canon 'Ensure the advancement and protection of the profession'?",
+    "options": [
+      "Maximizing quarterly profit margins for cybersecurity firms",
+      "Maintaining high standards of integrity, competence, and continuous education while elevating the standing of the cybersecurity field",
+      "Restricting certification entry to individuals with advanced university degrees",
+      "Keeping vulnerability information strictly secret from all academic institutions"
+    ],
+    "correctIndex": 1,
+    "explanation": "Advancing and protecting the profession involves professional integrity, competence, lifelong learning, and ethical community contribution.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-46",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization implements security guard patrols and perimeter intrusion sensors. These controls function primarily as:",
+    "options": [
+      "Technical preventive controls",
+      "Physical detective and deterrent controls",
+      "Administrative corrective controls",
+      "Logical recovery controls"
+    ],
+    "correctIndex": 1,
+    "explanation": "Guards and perimeter sensors act as physical security mechanisms that deter unauthorized entry and detect intrusions.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-47",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "When assessing risk, what does the term 'Exposure Factor (EF)' represent?",
+    "options": [
+      "The total financial value of an asset",
+      "The percentage of asset loss resulting from a specific threat realization",
+      "The annual frequency of a threat occurrence",
+      "The cost of implementing a countermeasure"
+    ],
+    "correctIndex": 1,
+    "explanation": "Exposure Factor (EF) is the percentage of asset value that is destroyed or lost when a specific threat is realized.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-48",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "A security professional discovers a critical vulnerability in open-source software used globally and coordinates responsible disclosure with maintainers. Which ISC2 ethical canon is being fulfilled?",
+    "options": [
+      "Protect society, the commonwealth, and the infrastructure",
+      "Provide diligent service to principals exclusively",
+      "Advance financial stock value",
+      "Avoid all risk management frameworks"
+    ],
+    "correctIndex": 0,
+    "explanation": "Coordinated disclosure protects the global software infrastructure and society from widespread exploitation.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-49",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following activities represents an example of 'due care' in cryptographic key management?",
+    "options": [
+      "Researching state-of-the-art quantum-resistant algorithms",
+      "Storing master encryption keys in plaintext on a public cloud server",
+      "Rotating encryption keys according to established operational policies and industry standards",
+      "Deleting backup keys without verification"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rotating keys according to policy represents responsible, active protection of sensitive assets (due care).",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-50",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "What is the fundamental difference between inherent risk and residual risk?",
+    "options": [
+      "Inherent risk is risk after controls are applied; residual risk is risk before controls",
+      "Inherent risk is the natural level of risk before any controls are applied; residual risk is what remains after controls are implemented",
+      "Inherent risk only applies to physical security, while residual risk applies to cloud computing",
+      "There is no functional difference between the two terms"
+    ],
+    "correctIndex": 1,
+    "explanation": "Inherent risk exists inherently in an environment without controls, whereas residual risk is the remaining exposure after controls are put in place.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-11",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "What is the primary objective of Governance, Risk, and Compliance (GRC) integration within an enterprise?",
+    "options": [
+      "To maximize administrative overhead and bureaucratic paperwork",
+      "To align security strategy with business objectives while ensuring legal and regulatory adherence",
+      "To eliminate the need for technical firewalls entirely",
+      "To restrict employee access to essential productivity tools"
+    ],
+    "correctIndex": 1,
+    "explanation": "GRC aligns security operations with business goals, manages enterprise risk, and ensures compliance with relevant laws and regulations.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-12",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "During a Business Impact Analysis (BIA), an organization determines that a critical payroll system can be offline for a maximum of 8 hours before causing severe regulatory penalties. This 8-hour window defines the:",
+    "options": [
+      "Recovery Point Objective (RPO)",
+      "Maximum Tolerable Downtime (MTD)",
+      "Recovery Time Objective (RTO)",
+      "Annualized Loss Expectancy (ALE)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maximum Tolerable Downtime (MTD) represents the absolute threshold of downtime before an organization suffers catastrophic or irreversible harm.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-13",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "Which disaster recovery site type provides real-time data replication and fully operational duplicate hardware, allowing for immediate failover with virtually zero RTO?",
+    "options": [
+      "Cold site",
+      "Warm site",
+      "Hot site",
+      "Mobile site"
+    ],
+    "correctIndex": 2,
+    "explanation": "A hot site is fully equipped and synchronized in real time, enabling immediate failover and minimal downtime.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-14",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "What is the primary purpose of conducting regular tabletop exercises as part of Business Continuity (BC) and Disaster Recovery (DR) programs?",
+    "options": [
+      "To perform physical server hardware replacements in a lab",
+      "To validate response plans, train personnel, and identify operational gaps through simulated scenario discussion",
+      "To test full-scale power grid failure across all corporate facilities simultaneously",
+      "To calculate quantitative risk SLE and ALE metrics"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tabletop exercises are discussion-based simulations used to test readiness, clarify team roles, and uncover procedural weaknesses without operational disruption.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-15",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "Which metric measures the maximum acceptable data loss measured in time, determining how far back data must be restored from backups after a disruption?",
+    "options": [
+      "Recovery Time Objective (RTO)",
+      "Recovery Point Objective (RPO)",
+      "Maximum Tolerable Downtime (MTD)",
+      "Single Loss Expectancy (SLE)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Recovery Point Objective (RPO) defines the maximum acceptable data loss measured in time (e.g., losing up to 4 hours of transactions).",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-16",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "How do Key Risk Indicators (KRIs) differ from Key Performance Indicators (KPIs) in security governance?",
+    "options": [
+      "KPIs measure future potential threats, while KRIs measure past financial revenue",
+      "KPIs measure operational performance and target achievement, while KRIs track the likelihood and severity of emerging risks",
+      "KRIs are exclusively used for physical security guards, while KPIs apply to firewalls",
+      "There is no difference; the terms are interchangeable"
+    ],
+    "correctIndex": 1,
+    "explanation": "KPIs evaluate performance success, whereas KRIs provide early warning indicators of potential risk events or increasing threat levels.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-17",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "An organization maintains an alternate recovery facility equipped with raised flooring, environmental controls, and power connectivity, but lacking pre-installed servers and real-time data backups. This is a:",
+    "options": [
+      "Hot site",
+      "Warm site",
+      "Cold site",
+      "Mirrored site"
+    ],
+    "correctIndex": 2,
+    "explanation": "A cold site provides basic infrastructure (power, HVAC, space) but no pre-installed hardware or active data replication, requiring significant setup time during a disaster.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-18",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "Which of the following is a primary goal of security awareness programs?",
+    "options": [
+      "To train employees to perform advanced penetration testing",
+      "To foster an organizational culture where employees actively recognize and mitigate threats such as phishing and social engineering",
+      "To replace technical access controls entirely with human oversight",
+      "To eliminate the need for GRC frameworks"
+    ],
+    "correctIndex": 1,
+    "explanation": "Security awareness instills a security-conscious organizational culture, transforming employees into an effective defense against human-targeted attacks.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-19",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "When measuring cybersecurity effectiveness for executive leadership, what is the primary advantage of aggregating metrics into executive dashboards and scorecards?",
+    "options": [
+      "It hides raw vulnerability data from regulatory auditors",
+      "It provides clear, high-level visibility into security posture, risk trends, and control performance to facilitate informed decision-making",
+      "It eliminates the need for incident response plans",
+      "It automates all patch management tasks across the enterprise"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dashboards and scorecards translate complex technical data into digestible risk metrics for executives and board members.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-20",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "What is the primary function of a Business Impact Analysis (BIA) within Business Continuity Planning (BCP)?",
+    "options": [
+      "To negotiate pricing contracts with third-party cloud vendors",
+      "To identify critical business functions, prioritize recovery order, and quantify the financial and operational impact of disruptions",
+      "To configure intrusion detection rules on perimeter firewalls",
+      "To conduct background screening on new employees"
+    ],
+    "correctIndex": 1,
+    "explanation": "The BIA pinpoints critical business operations and measures the impact of outages, establishing the analytical foundation for BCP and DR strategies.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-21",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "An alternate disaster recovery facility that contains partial hardware infrastructure and requires recent data backups to be restored before operations can resume is classified as a:",
+    "options": [
+      "Hot site",
+      "Warm site",
+      "Cold site",
+      "Mobile site"
+    ],
+    "correctIndex": 1,
+    "explanation": "A warm site strikes a balance between recovery speed and cost, possessing partial hardware and connectivity that requires configuration and data loading during a failover.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-22",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "Why is active security leadership considered critical in shaping organizational culture during security awareness initiatives?",
+    "options": [
+      "Executives are personally required to write firewall rule sets",
+      "Leadership endorsement models expected behaviors, signals priority, and secures necessary resource allocation",
+      "Management exemption from security policies prevents operational bottlenecks",
+      "Leaders act as technical system administrators during incident response"
+    ],
+    "correctIndex": 1,
+    "explanation": "Security leadership sets the tone from the top, ensuring employees take awareness training and security protocols seriously.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-23",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "What is the relationship between Recovery Time Objective (RTO) and Maximum Tolerable Downtime (MTD)?",
+    "options": [
+      "RTO must always be greater than MTD",
+      "RTO must be less than or equal to MTD",
+      "RTO and MTD represent identical operational metrics",
+      "There is no mathematical or operational relationship between them"
+    ],
+    "correctIndex": 1,
+    "explanation": "RTO is the time required to recover a system; MTD is the absolute limit before irreversible harm. Recovery must occur within or at the MTD threshold, meaning RTO <= MTD.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-24",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "Which governance tool provides structured methodologies, regulatory guidance, and best practices to help organizations build robust security programs?",
+    "options": [
+      "Malware payloads",
+      "Security frameworks (e.g., ISO, NIST)",
+      "Unencrypted network protocols",
+      "Packet sniffing utilities"
+    ],
+    "correctIndex": 1,
+    "explanation": "Security frameworks offer structured guidance and standardized criteria for designing and evaluating enterprise security architectures.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-25",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "An organization tracks the frequency of phishing email clicks across departments each month to evaluate employee susceptibility. This metric serves primarily as a:",
+    "options": [
+      "Key Risk Indicator (KRI)",
+      "Recovery Time Objective (RTO)",
+      "Single Loss Expectancy (SLE)",
+      "Maximum Tolerable Downtime (MTD)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tracking phishing click rates acts as a Key Risk Indicator, highlighting human vulnerability and the likelihood of future social engineering compromises.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q3-11",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Which phase of identity lifecycle management involves creating user accounts, assigning initial group memberships, and provisioning access permissions across enterprise systems?",
+    "options": [
+      "Deprovisioning",
+      "Provisioning",
+      "Access review",
+      "Auditing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Provisioning is the process of setting up digital identities, defining roles, and granting appropriate system access upon onboarding.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-12",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "The Principle of Least Privilege (POLP) dictates that:",
+    "options": [
+      "All users should have administrator privileges to ensure maximum productivity",
+      "Users and processes should be granted only the minimum permissions necessary to perform their assigned job functions",
+      "Privileges should automatically expand over time based on seniority",
+      "Access control models should rely entirely on user discretion"
+    ],
+    "correctIndex": 1,
+    "explanation": "POLP restricts access rights to the bare minimum required for task execution, limiting blast radius if an account is compromised.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-13",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "How does Separation of Duties (SOD) prevent fraud and errors within an enterprise?",
+    "options": [
+      "By combining all financial approval powers into a single senior executive account",
+      "By dividing critical, sensitive tasks across multiple individuals so no single person controls an entire workflow",
+      "By encrypting all database records at rest",
+      "By enforcing mandatory password changes every 30 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "SOD ensures that no individual holds unilateral power over high-risk transactions, requiring collusion for fraudulent activities.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-14",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "In which access control model are permissions attached directly to organizational job functions, making user provisioning scalable in large enterprises?",
+    "options": [
+      "Discretionary Access Control (DAC)",
+      "Mandatory Access Control (MAC)",
+      "Role-Based Access Control (RBAC)",
+      "Subjective Access Control"
+    ],
+    "correctIndex": 2,
+    "explanation": "RBAC assigns permissions to roles, and users inherit permissions based on their role assignments, streamlining enterprise access administration.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-15",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "What is the primary security vulnerability associated with Discretionary Access Control (DAC)?",
+    "options": [
+      "It requires strict government security clearance labels for all files",
+      "Resource owners have full discretion to grant permissions, which can lead to unauthorized data sharing and vulnerability to Trojan horse programs",
+      "It makes role assignments impossible to configure",
+      "It completely prevents users from accessing their own documents"
+    ],
+    "correctIndex": 1,
+    "explanation": "In DAC, owners can pass permissions to others freely, making it prone to careless sharing and malware executing with user privileges.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q3-16",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Which identity lifecycle management phase ensures that dormant or outdated accounts of terminated employees are systematically revoked?",
+    "options": [
+      "Provisioning",
+      "Deprovisioning",
+      "Role definition",
+      "Federation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Deprovisioning promptly disables and removes access rights when personnel leave, preventing unauthorized access through orphaned accounts.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-17",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Mandatory Access Control (MAC) enforces access decisions primarily through:",
+    "options": [
+      "The individual file owner's personal preference",
+      "Strict comparison of security classification labels assigned to subjects and clearance levels assigned to objects",
+      "Automated role membership trees",
+      "Password expiration length"
+    ],
+    "correctIndex": 1,
+    "explanation": "MAC relies on system-enforced labels and clearances, where users cannot override security policies regardless of ownership.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q3-18",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "What is the primary security benefit of conducting regular access reviews within identity lifecycle management?",
+    "options": [
+      "It automatically patches operating system vulnerabilities",
+      "It identifies and eliminates permission creep and orphaned accounts",
+      "It replaces the need for multi-factor authentication",
+      "It calculates Single Loss Expectancy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Periodic access reviews ensure users only retain permissions necessary for their current roles, mitigating privilege creep.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-19",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Which technology centralizes user identities and authentication services across disparate enterprise applications, allowing a user to log in once?",
+    "options": [
+      "Packet filtering firewall",
+      "Single Sign-On (SSO)",
+      "Demilitarized Zone (DMZ)",
+      "Network Address Translation (NAT)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Single Sign-On (SSO) permits authentication once to access multiple connected applications securely.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-20",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Privileged Access Management (PAM) solutions enhance security by providing which of the following controls?",
+    "options": [
+      "Permanent, unrestricted root access to all employees",
+      "Just-in-time access provisioning, session recording, and credential vaulting for administrative accounts",
+      "Automatic guest Wi-Fi routing",
+      "Symmetric data encryption for network packets"
+    ],
+    "correctIndex": 1,
+    "explanation": "PAM secures high-risk administrative accounts through vaulting, monitoring, and temporary privilege escalation.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q3-21",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "In an environment utilizing Role-Based Access Control (RBAC), what occurs when an employee transfers from the finance department to the human resources department?",
+    "options": [
+      "Their user account is permanently deleted",
+      "Their role assignments are modified to remove finance permissions and assign human resources roles",
+      "They retain all previous finance permissions indefinitely",
+      "They automatically become a system administrator"
+    ],
+    "correctIndex": 1,
+    "explanation": "Role modification updates access rights to match new job responsibilities, upholding least privilege.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-22",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Which access control model is most frequently mandated in high-security military and government environments due to its rigid enforcement of security labels?",
+    "options": [
+      "Discretionary Access Control (DAC)",
+      "Mandatory Access Control (MAC)",
+      "Role-Based Access Control (RBAC)",
+      "Open access control"
+    ],
+    "correctIndex": 1,
+    "explanation": "MAC is designed for classified government and military systems where centralized security policies cannot be overridden by users.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-23",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "What does 'role definition' entail during the identity lifecycle management process?",
+    "options": [
+      "Writing operating system installation scripts",
+      "Analyzing job functions to determine the exact permissions and resource access required for specific professional roles",
+      "Configuring network router static routes",
+      "Backing up database transaction logs"
+    ],
+    "correctIndex": 1,
+    "explanation": "Role definition maps business functions to precise permission sets before provisioning users.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-24",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "How do frameworks and tools support enterprise Identity and Access Management (IAM)?",
+    "options": [
+      "By automating provisioning, synchronization, and governance policies across hybrid cloud environments",
+      "By replacing physical security guards at building entrances",
+      "By encrypting storage media using quantum keys",
+      "By generating synthetic network traffic for load testing"
+    ],
+    "correctIndex": 1,
+    "explanation": "IAM frameworks and tools automate identity lifecycles and centralize access governance.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q3-25",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Why is the combination of Least Privilege and Separation of Duties considered critical for internal control?",
+    "options": [
+      "It guarantees 100% elimination of all software bugs",
+      "It minimizes insider threat risks and limits systemic damage from credential compromise",
+      "It accelerates network packet routing speeds",
+      "It simplifies password complexity requirements"
+    ],
+    "correctIndex": 1,
+    "explanation": "Together, POLP and SOD limit blast radius and prevent unilateral fraud or error.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q4-11",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "At which layer of the OSI reference model do traditional stateful packet-filtering firewalls primarily inspect traffic?",
+    "options": [
+      "Layers 1 and 2",
+      "Layers 3 and 4",
+      "Layer 6 only",
+      "Layer 7 exclusively"
+    ],
+    "correctIndex": 1,
+    "explanation": "Traditional firewalls evaluate IP addresses (Layer 3) and ports/protocols (Layer 4) to make filtering decisions.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-12",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What is the primary security purpose of network segmentation using VLANs and firewall zones?",
+    "options": [
+      "To increase raw broadband internet speed for all workstations",
+      "To isolate network segments and restrict lateral movement by attackers following a perimeter breach",
+      "To eliminate the need for endpoint antivirus software",
+      "To simplify wireless router SSID configuration"
+    ],
+    "correctIndex": 1,
+    "explanation": "Segmentation divides networks into isolated zones, preventing attackers from moving freely across the entire enterprise.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-13",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What core philosophy distinguishes a Zero Trust (ZT) architecture from traditional perimeter-based network security?",
+    "options": [
+      "Trusting all devices once they connect to the internal local area network",
+      "Operating under the principle of 'never trust, always verify' for every user and device regardless of location",
+      "Eliminating encryption on internal corporate subnets",
+      "Relying solely on physical perimeter fences for protection"
+    ],
+    "correctIndex": 1,
+    "explanation": "Zero Trust assumes no implicit trust based on network location, demanding continuous authentication and authorization.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q4-14",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "In cloud computing, which cloud service model places the highest security configuration burden on the customer, requiring them to manage OS patches, firewalls, and application runtimes?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Function as a Service (FaaS)"
+    ],
+    "correctIndex": 2,
+    "explanation": "In IaaS, the provider manages underlying virtualization and physical hardware, while the customer is responsible for the operating system, middleware, and application security.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-15",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What does the 'Shared Security Model' in cloud computing establish between the Cloud Service Provider (CSP) and the customer?",
+    "options": [
+      "The CSP is exclusively responsible for all data security and application bugs",
+      "Security responsibilities are divided, with the CSP securing the cloud infrastructure and the customer securing their data, configurations, and applications",
+      "The customer owns all underlying physical server hardware",
+      "Security obligations are completely eliminated upon migrating to the cloud"
+    ],
+    "correctIndex": 1,
+    "explanation": "The shared responsibility model outlines that the CSP secures 'security of the cloud' while the customer secures 'security in the cloud'.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-16",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "Which characteristic of cloud computing allows consumer computing resources to scale outward or inward automatically based on demand?",
+    "options": [
+      "Measured service",
+      "Rapid elasticity",
+      "Resource pooling",
+      "Broad network access"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rapid elasticity enables provisioning and releasing capabilities automatically to scale with demand dynamically.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-17",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "How do Industrial Control Systems (ICS) and embedded IoT devices present unique security challenges compared to standard enterprise IT hardware?",
+    "options": [
+      "They run standard enterprise antivirus software natively",
+      "They frequently feature resource constraints, legacy firmware that is difficult to patch, and operate critical physical processes",
+      "They are immune to network interception",
+      "They require multi-factor smart card authentication for all sensor readings"
+    ],
+    "correctIndex": 1,
+    "explanation": "ICS and IoT devices often lack computing power for robust security controls and run legacy firmware, making patching complex.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q4-18",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What is the primary function of a Virtual Private Network (VPN) operating across untrusted public networks?",
+    "options": [
+      "To accelerate web page rendering speeds",
+      "To establish an encrypted communication tunnel ensuring confidentiality and integrity for data in transit",
+      "To replace the OSI Layer 3 routing table entirely",
+      "To assign public IP addresses to internal home devices"
+    ],
+    "correctIndex": 1,
+    "explanation": "VPNs encrypt traffic passing across public networks, protecting data payloads from eavesdropping and tampering.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-51",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "A cybersecurity consultant is hired by a healthcare provider to secure patient records. During the audit, the consultant identifies a zero-day vulnerability in the hospital's primary billing system that could expose patient data, but management instructs the consultant to ignore it to meet an upcoming merger deadline. According to the ISC2 Code of Ethics, what is the practitioner's primary obligation?",
+    "options": [
+      "Comply with management's directive to protect the financial interests of the principal",
+      "Prioritize the protection of society, the commonwealth, and public safety above the principal's deadlines",
+      "Publicly disclose the zero-day vulnerability on social media immediately",
+      "Sign a waiver releasing the management from liability and drop the contract"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first canon of the ISC2 Code of Ethics explicitly dictates that practitioners must protect society, the commonwealth, and the infrastructure. Public safety and data protection supersede business deadlines or client instructions.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-52",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An IT director fails to implement standard multi-factor authentication or patch known vulnerabilities on remote access gateways, leading to a massive ransomware infection. In a subsequent legal proceeding, the director is found liable for gross negligence because they did not practice:",
+    "options": [
+      "Due diligence",
+      "Due care",
+      "Non-repudiation",
+      "Risk avoidance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Due care is the practice of taking reasonable, standard precautions and proactive steps to protect organizational assets (\"doing what is right\"). Failing to implement basic, expected safeguards constitutes a breach of due care.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-53",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization systematically evaluates its threat landscape, researches emerging threat actor vectors, updates risk registers, and conducts thorough vendor risk assessments every quarter. This ongoing investigative practice best describes:",
+    "options": [
+      "Due care",
+      "Due diligence",
+      "Accountability",
+      "Discretionary access control"
+    ],
+    "correctIndex": 1,
+    "explanation": "Due diligence represents the continuous effort, research, and investigation required to understand risks and ensure that protective controls are properly maintained (\"doing your homework\").",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-54",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "According to the ISC2 Code of Ethics canons, when a security professional provides services to an employer or client (principal), how must those services be executed?",
+    "options": [
+      "With absolute compliance to executive orders regardless of legality",
+      "With diligence, competence, honor, honesty, responsibility, and legality",
+      "With secondary priority given to professional standards if budgets are constrained",
+      "With complete autonomy that bypasses organizational governance"
+    ],
+    "correctIndex": 1,
+    "explanation": "The ISC2 Code of Ethics requires practitioners to provide diligent and competent service to principals while acting honorably, honestly, responsibly, and legally.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-55",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization experiences a breach where an attacker modifies financial transaction logs in transit. Which pillar of the CIA Triad has been directly compromised?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-repudiation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Integrity ensures that data remains accurate, complete, and unaltered by unauthorized parties. Modifying transaction logs in transit represents a direct failure of integrity.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-56",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "In the context of the AAA framework, which component is specifically responsible for generating audit trails that record user resource consumption and command execution history?",
+    "options": [
+      "Authentication",
+      "Authorization",
+      "Accounting",
+      "Assertion"
+    ],
+    "correctIndex": 2,
+    "explanation": "Accounting tracks and logs user activities, resource consumption, and system interactions for auditing, forensics, and accountability purposes.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-57",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following scenarios best demonstrates a violation of the ISC2 Canon to 'Advance and protect the profession'?",
+    "options": [
+      "Disclosing proprietary zero-day vulnerability details publicly before a patch is released",
+      "Refusing to sign a non-disclosure agreement with a commercial software vendor",
+      "Conducting scheduled vulnerability scans during approved maintenance windows",
+      "Implementing role-based access control across legacy systems"
+    ],
+    "correctIndex": 0,
+    "explanation": "Publishing unpatched zero-day vulnerabilities publicly (rather than responsibly reporting them) harms public safety and brings disrepute to the profession, violating ethical canons.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-58",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An asset valued at $500,000 has an exposure factor of 40% during a specific type of cyber attack. Historical data indicates this attack occurs once every 5 years. What is the Annualized Loss Expectancy (ALE)?",
+    "options": [
+      "$40,000",
+      "$100,000",
+      "$200,000",
+      "$500,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "SLE = Asset Value ($500,000) x Exposure Factor (0.40) = $200,000. ARO = 1 / 5 years = 0.2. ALE = SLE ($200,000) x ARO (0.2) = $40,000.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-59",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "When categorizing security controls, which of the following is classified strictly as an administrative (management) control?",
+    "options": [
+      "A biometric fingerprint scanner",
+      "An encryption algorithm",
+      "A mandatory password complexity policy",
+      "An access control vestibule (mantrap)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Administrative controls consist of policies, standards, guidelines, and procedures that govern personnel behavior and operational standards. Biometrics and encryption are technical controls, and mantraps are physical controls.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-60",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "A security analyst discovers that their direct supervisor is systematically falsifying compliance audit reports to bypass regulatory requirements. The analyst reports this violation through internal governance channels and whistleblower protections. Which ethical standard does this action uphold?",
+    "options": [
+      "Advance and protect the profession",
+      "Act honorably, honestly, responsibly, and legally",
+      "Provide diligent and competent service to principals only",
+      "Ensure unconditional availability of organizational assets"
+    ],
+    "correctIndex": 1,
+    "explanation": "Acting legally, honestly, and responsibly requires practitioners to reject fraud and falsification, upholding professional integrity and reporting illegal acts through appropriate channels.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-61",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which framework component dictates mandatory high-level security rules set by senior management, as opposed to step-by-step implementation instructions?",
+    "options": [
+      "Standard",
+      "Procedure",
+      "Policy",
+      "Guideline"
+    ],
+    "correctIndex": 2,
+    "explanation": "Policies are high-level, mandatory directives issued by management. Standards specify mandatory configurations, procedures offer step-by-step instructions, and guidelines are recommendations.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-62",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization decides to outsource its payment processing to a certified cloud provider and purchases cyber liability insurance. Which combined risk treatment strategies are being utilized?",
+    "options": [
+      "Mitigation and Avoidance",
+      "Transfer and Transfer",
+      "Transfer and Acceptance",
+      "Avoidance and Mitigation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Outsourcing shifts liability to a third party (risk transfer), and purchasing insurance also transfers financial risk. Wait, let's look at the options: outsourcing payment processing and purchasing insurance both represent risk transfer. If insurance is transfer and outsourcing is transfer, let's examine standard choices: transferring operational risk via outsourcing and financial risk via insurance.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-63",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "What is the primary distinction between privacy and confidentiality in information security?",
+    "options": [
+      "Confidentiality applies only to hardware, while privacy applies to software",
+      "Privacy relates specifically to the legal and ethical rights of individuals regarding their personally identifiable information (PII), whereas confidentiality is a broader security property protecting data from unauthorized disclosure",
+      "Privacy is a technical control, while confidentiality is an administrative control",
+      "There is no functional distinction; the terms are completely interchangeable"
+    ],
+    "correctIndex": 1,
+    "explanation": "Privacy focuses on the governance, handling, and rights associated with personally identifiable information (PII), while confidentiality is a core security attribute ensuring data is withheld from unauthorized entities.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-64",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which control type is designed to examine past security events and reconstruct the timeline after an incident has already occurred?",
+    "options": [
+      "Preventive control",
+      "Detective control",
+      "Corrective control",
+      "Directive control"
+    ],
+    "correctIndex": 2,
+    "explanation": "Corrective controls (and detective/recovery controls) mitigate the impact of an incident, remediate vulnerabilities, and restore systems to normalcy, while supporting post-incident analysis.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-65",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An engineer identifies a critical safety flaw in an industrial control system design but is told by the company president to remain silent. According to the ISC2 Code of Ethics, what ethical duty supersedes the employment contract in this situation?",
+    "options": [
+      "The duty to advance software engineering standards",
+      "The duty to protect society, the commonwealth, and the infrastructure",
+      "The duty to maintain client confidentiality above all else",
+      "The duty to maximize shareholder equity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Protecting society, the commonwealth, and the infrastructure is the paramount canon of the ISC2 Code of Ethics, overriding employment clauses when public safety is threatened.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-66",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "When performing risk analysis, multiplying Threat likelihood, Vulnerability severity, and Impact magnitude yields which fundamental security metric?",
+    "options": [
+      "Annualized Loss Expectancy (ALE)",
+      "Total Risk exposure",
+      "Residual Risk value",
+      "Single Loss Expectancy (SLE)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Risk is fundamentally modeled as the product of Threat, Vulnerability, and Impact (Risk = Threat x Vulnerability x Impact).",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-67",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following best exemplifies the practical application of 'due care' by a system administrator?",
+    "options": [
+      "Conducting annual threat intelligence briefings",
+      "Applying critical security patches promptly upon release to prevent known exploits",
+      "Reviewing regulatory compliance frameworks every fiscal year",
+      "Drafting long-term disaster recovery strategies"
+    ],
+    "correctIndex": 1,
+    "explanation": "Applying patches promptly is a direct, responsible action taken to protect assets against active threats, representing due care (\"doing what is right\").",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-68",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization accepts a known, low-impact vulnerability because the cost of remediation outweighs the potential financial loss. This risk treatment strategy is known as:",
+    "options": [
+      "Risk mitigation",
+      "Risk transfer",
+      "Risk acceptance",
+      "Risk avoidance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Risk acceptance occurs when an organization formally acknowledges a risk and decides not to allocate resources for mitigation because the impact is within acceptable thresholds.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-69",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which ISC2 Code of Ethics canon is violated if a practitioner accepts consulting fees from two competing vendors without disclosing the potential conflict of interest to both parties?",
+    "options": [
+      "Protect society, the commonwealth, and the infrastructure",
+      "Act honorably, honestly, responsibly, and legally",
+      "Provide diligent and competent service to principals",
+      "Advance and protect the profession"
+    ],
+    "correctIndex": 1,
+    "explanation": "Failing to disclose conflicts of interest violates honesty and responsibility toward principals and stakeholders, breaching the code of ethical conduct.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-70",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "What is the primary purpose of establishing security standards (such as ISO or CIS benchmarks) within an organization?",
+    "options": [
+      "To replace corporate management policies entirely",
+      "To provide specific, mandatory technical specifications and configurations that support high-level policies",
+      "To eliminate all organizational risks permanently",
+      "To provide optional guidelines that employees can follow at their discretion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Standards operationalize policies by providing concrete, mandatory technical requirements and configuration baselines.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-71",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which formula correctly calculates Single Loss Expectancy (SLE)?",
+    "options": [
+      "Asset Value x Annualized Rate of Occurrence",
+      "Asset Value x Exposure Factor",
+      "Threat Likelihood x Vulnerability Impact",
+      "SLE x Annualized Rate of Occurrence"
+    ],
+    "correctIndex": 1,
+    "explanation": "Single Loss Expectancy (SLE) is calculated as Asset Value multiplied by Exposure Factor (EF).",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-72",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An auditor evaluates physical security controls at a data center and notes the presence of security guards, perimeter fencing, and motion detectors. Which category do these controls belong to?",
+    "options": [
+      "Technical controls",
+      "Administrative controls",
+      "Physical controls",
+      "Corrective controls"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fencing, guards, and motion detectors protect physical facilities and assets, making them physical controls.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-73",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "A security professional discovers that a proprietary encryption tool they developed contains a deliberate backdoor requested by a law enforcement agency, without informing clients. Which ISC2 ethical canon is directly violated?",
+    "options": [
+      "Protect society, the commonwealth, and the infrastructure",
+      "Advance and protect the profession",
+      "Provide diligent and competent service to principals",
+      "Maintain professional certification status"
+    ],
+    "correctIndex": 0,
+    "explanation": "Inserting backdoors compromises system integrity and infrastructure security, directly violating the primary canon of protecting society and the infrastructure.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-74",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which risk management concept refers to the amount of risk remaining after all specific security controls and countermeasures have been implemented?",
+    "options": [
+      "Inherent risk",
+      "Total risk",
+      "Residual risk",
+      "Appetite risk"
+    ],
+    "correctIndex": 2,
+    "explanation": "Residual risk is the risk that remains after controls are applied, since absolute (zero) security is practically unattainable.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-75",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization mandates that all email communications containing credit card numbers must be automatically blocked by the mail gateway. This control functions primarily as a:",
+    "options": [
+      "Detective technical control",
+      "Preventive technical control",
+      "Corrective administrative control",
+      "Deterrent physical control"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blocking unauthorized data transfers proactively stops security incidents before they occur, making it a preventive technical control.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-76",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following actions best demonstrates adherence to the ISC2 canon to 'Advance and protect the profession'?",
+    "options": [
+      "Hoarding security research to gain a competitive monopoly",
+      "Mentoring junior cybersecurity practitioners and sharing threat intelligence responsibly with the community",
+      "Falsifying continuing professional education (CPE) credits to maintain certification",
+      "Undermining competitor organizations on public forums"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mentoring, knowledge sharing, and contributing to community security intelligence uphold the reputation and advancement of the cybersecurity profession.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-77",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "What is the primary benefit of employing a quantitative risk analysis methodology over a qualitative one?",
+    "options": [
+      "It requires zero historical data or numerical estimation",
+      "It provides exact monetary figures that assist executive management in justifying security budget expenditures",
+      "It eliminates all subjective human judgment entirely",
+      "It is significantly faster and less resource-intensive to execute"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quantitative risk analysis provides concrete financial metrics (such as ALE and SLE), making cost-benefit analysis straightforward for executive decision-makers.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-78",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "A security manager establishes clear rules prohibiting personal USB drives on corporate workstations. This document outlines mandatory operational expectations. What level of the policy hierarchy does this represent?",
+    "options": [
+      "Guideline",
+      "Standard",
+      "Policy",
+      "Procedure"
+    ],
+    "correctIndex": 2,
+    "explanation": "An organizational rule prohibiting high-risk media is a high-level mandatory policy statement governing user behavior.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-79",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which principle ensures that a sender of a message cannot successfully deny having sent it, nor can the receiver deny receiving it?",
+    "options": [
+      "Confidentiality",
+      "Availability",
+      "Non-repudiation",
+      "Accounting"
+    ],
+    "correctIndex": 2,
+    "explanation": "Non-repudiation provides legal and technical proof of message origin and receipt, preventing denial by either party.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-80",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization decides to cancel a high-risk mobile application project entirely because the potential vulnerabilities outweigh any business benefit. This risk treatment is:",
+    "options": [
+      "Risk mitigation",
+      "Risk transfer",
+      "Risk avoidance",
+      "Risk acceptance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Risk avoidance eliminates the risk entirely by ceasing or refusing to undertake the activity that creates it.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q1-81",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following scenarios represents a failure of 'due diligence'?",
+    "options": [
+      "Failing to install a critical vendor patch that was released yesterday",
+      "Failing to conduct background checks or research third-party cloud vendors before signing a service contract",
+      "Accidentally deleting a log file during a routine backup",
+      "Enforcing strict password complexity requirements"
+    ],
+    "correctIndex": 1,
+    "explanation": "Due diligence involves investigation, research, and vetting before entering agreements or deploying technologies (\"doing your homework\"). Failing to vet third parties is a failure of due diligence.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-82",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Under the ISC2 Code of Ethics, if a security practitioner uncovers illegal activities within their own organization, what is their primary ethical obligation regarding confidentiality?",
+    "options": [
+      "Organizational confidentiality strictly supersedes all laws, forbidding external reporting",
+      "Ethical and legal obligations to report unlawful acts to proper authorities supersede routine client confidentiality",
+      "The practitioner must resign immediately without notifying anyone",
+      "The practitioner should assist in covering up the activity to protect company reputation"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Code requires practitioners to act legally and protect society; confidentiality cannot be used as a shield to conceal illegal acts or threats to public safety.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-83",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "What is the primary role of administrative controls in a layered security architecture?",
+    "options": [
+      "To enforce physical hardware encryption",
+      "To direct personnel behavior through policies, procedures, and awareness training",
+      "To monitor network packets at Layer 4 of the OSI model",
+      "To provide physical perimeter barriers against intruders"
+    ],
+    "correctIndex": 1,
+    "explanation": "Administrative controls govern human behavior, operational guidelines, and organizational security governance.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-84",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An asset has a value of $200,000, and a fire causes 50% damage to it. The fire is expected to occur once every 10 years. What is the Annualized Loss Expectancy (ALE)?",
+    "options": [
+      "$10,000",
+      "$20,000",
+      "$100,000",
+      "$200,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "SLE = $200,000 x 0.50 = $100,000. ARO = 1 / 10 = 0.1. ALE = $100,000 x 0.1 = $10,000.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-85",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following best describes the core ethos behind the ISC2 Code of Ethics canon 'Ensure the advancement and protection of the profession'?",
+    "options": [
+      "Maximizing quarterly profit margins for cybersecurity firms",
+      "Maintaining high standards of integrity, competence, and continuous education while elevating the standing of the cybersecurity field",
+      "Restricting certification entry to individuals with advanced university degrees",
+      "Keeping vulnerability information strictly secret from all academic institutions"
+    ],
+    "correctIndex": 1,
+    "explanation": "Advancing and protecting the profession involves professional integrity, competence, lifelong learning, and ethical community contribution.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-86",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "An organization implements security guard patrols and perimeter intrusion sensors. These controls function primarily as:",
+    "options": [
+      "Technical preventive controls",
+      "Physical detective and deterrent controls",
+      "Administrative corrective controls",
+      "Logical recovery controls"
+    ],
+    "correctIndex": 1,
+    "explanation": "Guards and perimeter sensors act as physical security mechanisms that deter unauthorized entry and detect intrusions.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-87",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "When assessing risk, what does the term 'Exposure Factor (EF)' represent?",
+    "options": [
+      "The total financial value of an asset",
+      "The percentage of asset loss resulting from a specific threat realization",
+      "The annual frequency of a threat occurrence",
+      "The cost of implementing a countermeasure"
+    ],
+    "correctIndex": 1,
+    "explanation": "Exposure Factor (EF) is the percentage of asset value that is destroyed or lost when a specific threat is realized.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q1-88",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "A security professional discovers a critical vulnerability in open-source software used globally and coordinates responsible disclosure with maintainers. Which ISC2 ethical canon is being fulfilled?",
+    "options": [
+      "Protect society, the commonwealth, and the infrastructure",
+      "Provide diligent service to principals exclusively",
+      "Advance financial stock value",
+      "Avoid all risk management frameworks"
+    ],
+    "correctIndex": 0,
+    "explanation": "Coordinated disclosure protects the global software infrastructure and society from widespread exploitation.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-89",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "Which of the following activities represents an example of 'due care' in cryptographic key management?",
+    "options": [
+      "Researching state-of-the-art quantum-resistant algorithms",
+      "Storing master encryption keys in plaintext on a public cloud server",
+      "Rotating encryption keys according to established operational policies and industry standards",
+      "Deleting backup keys without verification"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rotating keys according to policy represents responsible, active protection of sensitive assets (due care).",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q1-90",
+    "domainId": "security-principles",
+    "domainNumber": 1,
+    "text": "What is the fundamental difference between inherent risk and residual risk?",
+    "options": [
+      "Inherent risk is risk after controls are applied; residual risk is risk before controls",
+      "Inherent risk is the natural level of risk before any controls are applied; residual risk is what remains after controls are implemented",
+      "Inherent risk only applies to physical security, while residual risk applies to cloud computing",
+      "There is no functional difference between the two terms"
+    ],
+    "correctIndex": 1,
+    "explanation": "Inherent risk exists inherently in an environment without controls, whereas residual risk is the remaining exposure after controls are put in place.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-26",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "What is the primary objective of Governance, Risk, and Compliance (GRC) integration within an enterprise?",
+    "options": [
+      "To maximize administrative overhead and bureaucratic paperwork",
+      "To align security strategy with business objectives while ensuring legal and regulatory adherence",
+      "To eliminate the need for technical firewalls entirely",
+      "To restrict employee access to essential productivity tools"
+    ],
+    "correctIndex": 1,
+    "explanation": "GRC aligns security operations with business goals, manages enterprise risk, and ensures compliance with relevant laws and regulations.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-27",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "During a Business Impact Analysis (BIA), an organization determines that a critical payroll system can be offline for a maximum of 8 hours before causing severe regulatory penalties. This 8-hour window defines the:",
+    "options": [
+      "Recovery Point Objective (RPO)",
+      "Maximum Tolerable Downtime (MTD)",
+      "Recovery Time Objective (RTO)",
+      "Annualized Loss Expectancy (ALE)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maximum Tolerable Downtime (MTD) represents the absolute threshold of downtime before an organization suffers catastrophic or irreversible harm.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-28",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "Which disaster recovery site type provides real-time data replication and fully operational duplicate hardware, allowing for immediate failover with virtually zero RTO?",
+    "options": [
+      "Cold site",
+      "Warm site",
+      "Hot site",
+      "Mobile site"
+    ],
+    "correctIndex": 2,
+    "explanation": "A hot site is fully equipped and synchronized in real time, enabling immediate failover and minimal downtime.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-29",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "What is the primary purpose of conducting regular tabletop exercises as part of Business Continuity (BC) and Disaster Recovery (DR) programs?",
+    "options": [
+      "To perform physical server hardware replacements in a lab",
+      "To validate response plans, train personnel, and identify operational gaps through simulated scenario discussion",
+      "To test full-scale power grid failure across all corporate facilities simultaneously",
+      "To calculate quantitative risk SLE and ALE metrics"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tabletop exercises are discussion-based simulations used to test readiness, clarify team roles, and uncover procedural weaknesses without operational disruption.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-30",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "Which metric measures the maximum acceptable data loss measured in time, determining how far back data must be restored from backups after a disruption?",
+    "options": [
+      "Recovery Time Objective (RTO)",
+      "Recovery Point Objective (RPO)",
+      "Maximum Tolerable Downtime (MTD)",
+      "Single Loss Expectancy (SLE)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Recovery Point Objective (RPO) defines the maximum acceptable data loss measured in time (e.g., losing up to 4 hours of transactions).",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-31",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "How do Key Risk Indicators (KRIs) differ from Key Performance Indicators (KPIs) in security governance?",
+    "options": [
+      "KPIs measure future potential threats, while KRIs measure past financial revenue",
+      "KPIs measure operational performance and target achievement, while KRIs track the likelihood and severity of emerging risks",
+      "KRIs are exclusively used for physical security guards, while KPIs apply to firewalls",
+      "There is no difference; the terms are interchangeable"
+    ],
+    "correctIndex": 1,
+    "explanation": "KPIs evaluate performance success, whereas KRIs provide early warning indicators of potential risk events or increasing threat levels.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-32",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "An organization maintains an alternate recovery facility equipped with raised flooring, environmental controls, and power connectivity, but lacking pre-installed servers and real-time data backups. This is a:",
+    "options": [
+      "Hot site",
+      "Warm site",
+      "Cold site",
+      "Mirrored site"
+    ],
+    "correctIndex": 2,
+    "explanation": "A cold site provides basic infrastructure (power, HVAC, space) but no pre-installed hardware or active data replication, requiring significant setup time during a disaster.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-33",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "Which of the following is a primary goal of security awareness programs?",
+    "options": [
+      "To train employees to perform advanced penetration testing",
+      "To foster an organizational culture where employees actively recognize and mitigate threats such as phishing and social engineering",
+      "To replace technical access controls entirely with human oversight",
+      "To eliminate the need for GRC frameworks"
+    ],
+    "correctIndex": 1,
+    "explanation": "Security awareness instills a security-conscious organizational culture, transforming employees into an effective defense against human-targeted attacks.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-34",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "When measuring cybersecurity effectiveness for executive leadership, what is the primary advantage of aggregating metrics into executive dashboards and scorecards?",
+    "options": [
+      "It hides raw vulnerability data from regulatory auditors",
+      "It provides clear, high-level visibility into security posture, risk trends, and control performance to facilitate informed decision-making",
+      "It eliminates the need for incident response plans",
+      "It automates all patch management tasks across the enterprise"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dashboards and scorecards translate complex technical data into digestible risk metrics for executives and board members.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-35",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "What is the primary function of a Business Impact Analysis (BIA) within Business Continuity Planning (BCP)?",
+    "options": [
+      "To negotiate pricing contracts with third-party cloud vendors",
+      "To identify critical business functions, prioritize recovery order, and quantify the financial and operational impact of disruptions",
+      "To configure intrusion detection rules on perimeter firewalls",
+      "To conduct background screening on new employees"
+    ],
+    "correctIndex": 1,
+    "explanation": "The BIA pinpoints critical business operations and measures the impact of outages, establishing the analytical foundation for BCP and DR strategies.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-36",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "An alternate disaster recovery facility that contains partial hardware infrastructure and requires recent data backups to be restored before operations can resume is classified as a:",
+    "options": [
+      "Hot site",
+      "Warm site",
+      "Cold site",
+      "Mobile site"
+    ],
+    "correctIndex": 1,
+    "explanation": "A warm site strikes a balance between recovery speed and cost, possessing partial hardware and connectivity that requires configuration and data loading during a failover.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q2-37",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "Why is active security leadership considered critical in shaping organizational culture during security awareness initiatives?",
+    "options": [
+      "Executives are personally required to write firewall rule sets",
+      "Leadership endorsement models expected behaviors, signals priority, and secures necessary resource allocation",
+      "Management exemption from security policies prevents operational bottlenecks",
+      "Leaders act as technical system administrators during incident response"
+    ],
+    "correctIndex": 1,
+    "explanation": "Security leadership sets the tone from the top, ensuring employees take awareness training and security protocols seriously.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-38",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "What is the relationship between Recovery Time Objective (RTO) and Maximum Tolerable Downtime (MTD)?",
+    "options": [
+      "RTO must always be greater than MTD",
+      "RTO must be less than or equal to MTD",
+      "RTO and MTD represent identical operational metrics",
+      "There is no mathematical or operational relationship between them"
+    ],
+    "correctIndex": 1,
+    "explanation": "RTO is the time required to recover a system; MTD is the absolute limit before irreversible harm. Recovery must occur within or at the MTD threshold, meaning RTO <= MTD.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q2-39",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "Which governance tool provides structured methodologies, regulatory guidance, and best practices to help organizations build robust security programs?",
+    "options": [
+      "Malware payloads",
+      "Security frameworks (e.g., ISO, NIST)",
+      "Unencrypted network protocols",
+      "Packet sniffing utilities"
+    ],
+    "correctIndex": 1,
+    "explanation": "Security frameworks offer structured guidance and standardized criteria for designing and evaluating enterprise security architectures.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q2-40",
+    "domainId": "security-governance",
+    "domainNumber": 2,
+    "text": "An organization tracks the frequency of phishing email clicks across departments each month to evaluate employee susceptibility. This metric serves primarily as a:",
+    "options": [
+      "Key Risk Indicator (KRI)",
+      "Recovery Time Objective (RTO)",
+      "Single Loss Expectancy (SLE)",
+      "Maximum Tolerable Downtime (MTD)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tracking phishing click rates acts as a Key Risk Indicator, highlighting human vulnerability and the likelihood of future social engineering compromises.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q3-26",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Which phase of identity lifecycle management involves creating user accounts, assigning initial group memberships, and provisioning access permissions across enterprise systems?",
+    "options": [
+      "Deprovisioning",
+      "Provisioning",
+      "Access review",
+      "Auditing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Provisioning is the process of setting up digital identities, defining roles, and granting appropriate system access upon onboarding.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-27",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "The Principle of Least Privilege (POLP) dictates that:",
+    "options": [
+      "All users should have administrator privileges to ensure maximum productivity",
+      "Users and processes should be granted only the minimum permissions necessary to perform their assigned job functions",
+      "Privileges should automatically expand over time based on seniority",
+      "Access control models should rely entirely on user discretion"
+    ],
+    "correctIndex": 1,
+    "explanation": "POLP restricts access rights to the bare minimum required for task execution, limiting blast radius if an account is compromised.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-28",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "How does Separation of Duties (SOD) prevent fraud and errors within an enterprise?",
+    "options": [
+      "By combining all financial approval powers into a single senior executive account",
+      "By dividing critical, sensitive tasks across multiple individuals so no single person controls an entire workflow",
+      "By encrypting all database records at rest",
+      "By enforcing mandatory password changes every 30 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "SOD ensures that no individual holds unilateral power over high-risk transactions, requiring collusion for fraudulent activities.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-29",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "In which access control model are permissions attached directly to organizational job functions, making user provisioning scalable in large enterprises?",
+    "options": [
+      "Discretionary Access Control (DAC)",
+      "Mandatory Access Control (MAC)",
+      "Role-Based Access Control (RBAC)",
+      "Subjective Access Control"
+    ],
+    "correctIndex": 2,
+    "explanation": "RBAC assigns permissions to roles, and users inherit permissions based on their role assignments, streamlining enterprise access administration.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-30",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "What is the primary security vulnerability associated with Discretionary Access Control (DAC)?",
+    "options": [
+      "It requires strict government security clearance labels for all files",
+      "Resource owners have full discretion to grant permissions, which can lead to unauthorized data sharing and vulnerability to Trojan horse programs",
+      "It makes role assignments impossible to configure",
+      "It completely prevents users from accessing their own documents"
+    ],
+    "correctIndex": 1,
+    "explanation": "In DAC, owners can pass permissions to others freely, making it prone to careless sharing and malware executing with user privileges.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q3-31",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Which identity lifecycle management phase ensures that dormant or outdated accounts of terminated employees are systematically revoked?",
+    "options": [
+      "Provisioning",
+      "Deprovisioning",
+      "Role definition",
+      "Federation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Deprovisioning promptly disables and removes access rights when personnel leave, preventing unauthorized access through orphaned accounts.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-32",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Mandatory Access Control (MAC) enforces access decisions primarily through:",
+    "options": [
+      "The individual file owner's personal preference",
+      "Strict comparison of security classification labels assigned to subjects and clearance levels assigned to objects",
+      "Automated role membership trees",
+      "Password expiration length"
+    ],
+    "correctIndex": 1,
+    "explanation": "MAC relies on system-enforced labels and clearances, where users cannot override security policies regardless of ownership.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q3-33",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "What is the primary security benefit of conducting regular access reviews within identity lifecycle management?",
+    "options": [
+      "It automatically patches operating system vulnerabilities",
+      "It identifies and eliminates permission creep and orphaned accounts",
+      "It replaces the need for multi-factor authentication",
+      "It calculates Single Loss Expectancy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Periodic access reviews ensure users only retain permissions necessary for their current roles, mitigating privilege creep.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-34",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Which technology centralizes user identities and authentication services across disparate enterprise applications, allowing a user to log in once?",
+    "options": [
+      "Packet filtering firewall",
+      "Single Sign-On (SSO)",
+      "Demilitarized Zone (DMZ)",
+      "Network Address Translation (NAT)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Single Sign-On (SSO) permits authentication once to access multiple connected applications securely.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q3-35",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Privileged Access Management (PAM) solutions enhance security by providing which of the following controls?",
+    "options": [
+      "Permanent, unrestricted root access to all employees",
+      "Just-in-time access provisioning, session recording, and credential vaulting for administrative accounts",
+      "Automatic guest Wi-Fi routing",
+      "Symmetric data encryption for network packets"
+    ],
+    "correctIndex": 1,
+    "explanation": "PAM secures high-risk administrative accounts through vaulting, monitoring, and temporary privilege escalation.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q3-36",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "In an environment utilizing Role-Based Access Control (RBAC), what occurs when an employee transfers from the finance department to the human resources department?",
+    "options": [
+      "Their user account is permanently deleted",
+      "Their role assignments are modified to remove finance permissions and assign human resources roles",
+      "They retain all previous finance permissions indefinitely",
+      "They automatically become a system administrator"
+    ],
+    "correctIndex": 1,
+    "explanation": "Role modification updates access rights to match new job responsibilities, upholding least privilege.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-37",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Which access control model is most frequently mandated in high-security military and government environments due to its rigid enforcement of security labels?",
+    "options": [
+      "Discretionary Access Control (DAC)",
+      "Mandatory Access Control (MAC)",
+      "Role-Based Access Control (RBAC)",
+      "Open access control"
+    ],
+    "correctIndex": 1,
+    "explanation": "MAC is designed for classified government and military systems where centralized security policies cannot be overridden by users.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-38",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "What does 'role definition' entail during the identity lifecycle management process?",
+    "options": [
+      "Writing operating system installation scripts",
+      "Analyzing job functions to determine the exact permissions and resource access required for specific professional roles",
+      "Configuring network router static routes",
+      "Backing up database transaction logs"
+    ],
+    "correctIndex": 1,
+    "explanation": "Role definition maps business functions to precise permission sets before provisioning users.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q3-39",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "How do frameworks and tools support enterprise Identity and Access Management (IAM)?",
+    "options": [
+      "By automating provisioning, synchronization, and governance policies across hybrid cloud environments",
+      "By replacing physical security guards at building entrances",
+      "By encrypting storage media using quantum keys",
+      "By generating synthetic network traffic for load testing"
+    ],
+    "correctIndex": 1,
+    "explanation": "IAM frameworks and tools automate identity lifecycles and centralize access governance.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q3-40",
+    "domainId": "identity-access-management",
+    "domainNumber": 3,
+    "text": "Why is the combination of Least Privilege and Separation of Duties considered critical for internal control?",
+    "options": [
+      "It guarantees 100% elimination of all software bugs",
+      "It minimizes insider threat risks and limits systemic damage from credential compromise",
+      "It accelerates network packet routing speeds",
+      "It simplifies password complexity requirements"
+    ],
+    "correctIndex": 1,
+    "explanation": "Together, POLP and SOD limit blast radius and prevent unilateral fraud or error.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q4-19",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "At which layer of the OSI reference model do traditional stateful packet-filtering firewalls primarily inspect traffic?",
+    "options": [
+      "Layers 1 and 2",
+      "Layers 3 and 4",
+      "Layer 6 only",
+      "Layer 7 exclusively"
+    ],
+    "correctIndex": 1,
+    "explanation": "Traditional firewalls evaluate IP addresses (Layer 3) and ports/protocols (Layer 4) to make filtering decisions.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-20",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What is the primary security purpose of network segmentation using VLANs and firewall zones?",
+    "options": [
+      "To increase raw broadband internet speed for all workstations",
+      "To isolate network segments and restrict lateral movement by attackers following a perimeter breach",
+      "To eliminate the need for endpoint antivirus software",
+      "To simplify wireless router SSID configuration"
+    ],
+    "correctIndex": 1,
+    "explanation": "Segmentation divides networks into isolated zones, preventing attackers from moving freely across the entire enterprise.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-21",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What core philosophy distinguishes a Zero Trust (ZT) architecture from traditional perimeter-based network security?",
+    "options": [
+      "Trusting all devices once they connect to the internal local area network",
+      "Operating under the principle of 'never trust, always verify' for every user and device regardless of location",
+      "Eliminating encryption on internal corporate subnets",
+      "Relying solely on physical perimeter fences for protection"
+    ],
+    "correctIndex": 1,
+    "explanation": "Zero Trust assumes no implicit trust based on network location, demanding continuous authentication and authorization.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q4-22",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "In cloud computing, which cloud service model places the highest security configuration burden on the customer, requiring them to manage OS patches, firewalls, and application runtimes?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Function as a Service (FaaS)"
+    ],
+    "correctIndex": 2,
+    "explanation": "In IaaS, the provider manages underlying virtualization and physical hardware, while the customer is responsible for the operating system, middleware, and application security.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-23",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What does the 'Shared Security Model' in cloud computing establish between the Cloud Service Provider (CSP) and the customer?",
+    "options": [
+      "The CSP is exclusively responsible for all data security and application bugs",
+      "Security responsibilities are divided, with the CSP securing the cloud infrastructure and the customer securing their data, configurations, and applications",
+      "The customer owns all underlying physical server hardware",
+      "Security obligations are completely eliminated upon migrating to the cloud"
+    ],
+    "correctIndex": 1,
+    "explanation": "The shared responsibility model outlines that the CSP secures 'security of the cloud' while the customer secures 'security in the cloud'.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-24",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "Which characteristic of cloud computing allows consumer computing resources to scale outward or inward automatically based on demand?",
+    "options": [
+      "Measured service",
+      "Rapid elasticity",
+      "Resource pooling",
+      "Broad network access"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rapid elasticity enables provisioning and releasing capabilities automatically to scale with demand dynamically.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-25",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "How do Industrial Control Systems (ICS) and embedded IoT devices present unique security challenges compared to standard enterprise IT hardware?",
+    "options": [
+      "They run standard enterprise antivirus software natively",
+      "They frequently feature resource constraints, legacy firmware that is difficult to patch, and operate critical physical processes",
+      "They are immune to network interception",
+      "They require multi-factor smart card authentication for all sensor readings"
+    ],
+    "correctIndex": 1,
+    "explanation": "ICS and IoT devices often lack computing power for robust security controls and run legacy firmware, making patching complex.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q4-26",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What is the primary function of a Virtual Private Network (VPN) operating across untrusted public networks?",
+    "options": [
+      "To accelerate web page rendering speeds",
+      "To establish an encrypted communication tunnel ensuring confidentiality and integrity for data in transit",
+      "To replace the OSI Layer 3 routing table entirely",
+      "To assign public IP addresses to internal home devices"
+    ],
+    "correctIndex": 1,
+    "explanation": "VPNs encrypt traffic passing across public networks, protecting data payloads from eavesdropping and tampering.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-27",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "Which cloud deployment model is operated exclusively for a single organization, whether managed internally or by a third party?",
+    "options": [
+      "Public cloud",
+      "Private cloud",
+      "Community cloud",
+      "Hybrid cloud"
+    ],
+    "correctIndex": 1,
+    "explanation": "A private cloud provides dedicated infrastructure operated solely for a single organization.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-28",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What is the purpose of micro-segmentation in advanced network security architectures?",
+    "options": [
+      "To divide physical cables into smaller millimeter lengths",
+      "To create highly granular security perimeters around individual workloads or containers within a data center",
+      "To restrict wireless Bluetooth connectivity to 2 meters",
+      "To force all network traffic through a single legacy router"
+    ],
+    "correctIndex": 1,
+    "explanation": "Micro-segmentation applies software-defined perimeter controls down to individual virtual machines or containers, stopping lateral movement.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q4-29",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "Which IPv6 feature significantly improves address allocation efficiency and eliminates the traditional need for Network Address Translation (NAT) in enterprise networks?",
+    "options": [
+      "32-bit address space",
+      "128-bit address space",
+      "Packet fragmentation headers",
+      "Broadcast storm suppression"
+    ],
+    "correctIndex": 1,
+    "explanation": "IPv6 utilizes a massive 128-bit address space, providing enough unique IP addresses for every device globally without requiring NAT.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-30",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What does 'measured service' signify in cloud computing characteristics?",
+    "options": [
+      "Measuring employee typing speed in cloud word processors",
+      "Transparent resource optimization where cloud usage is monitored, controlled, and reported based on utilization",
+      "Measuring physical office square footage",
+      "Calculating annual cybersecurity insurance premiums"
+    ],
+    "correctIndex": 1,
+    "explanation": "Measured service allows cloud providers and customers to track resource consumption (storage, bandwidth, processing) for billing and optimization.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-31",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "How does Defense in Depth apply to network security architecture?",
+    "options": [
+      "By relying on a single, highly impenetrable perimeter firewall",
+      "By deploying multiple layers of heterogeneous security controls (perimeter, network, host, and application) so failure of one does not compromise the enterprise",
+      "By placing all servers directly on the public internet",
+      "By eliminating administrative passwords"
+    ],
+    "correctIndex": 1,
+    "explanation": "Defense in depth layers multiple safeguards across network boundaries and hosts to ensure resilience against breaches.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-32",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "Which cloud service model provides developers with a complete runtime environment, databases, and deployment tools while abstracting underlying OS management?",
+    "options": [
+      "Infrastructure as a Service (IaaS)",
+      "Platform as a Service (PaaS)",
+      "Software as a Service (SaaS)",
+      "Desktop as a Service (DaaS)"
+    ],
+    "correctIndex": 1,
+    "explanation": "PaaS delivers an environment for building and deploying applications without managing operating systems or hardware.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-33",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "Why are wireless networks considered inherently more vulnerable to eavesdropping than wired networks?",
+    "options": [
+      "Wireless signals operate on lower voltage levels",
+      "Radio frequency transmissions propagate through open air and physical barriers, allowing attackers to intercept traffic without physical wire tapping",
+      "Wireless routers do not support encryption protocols",
+      "Wireless NICs cannot utilize MAC filtering"
+    ],
+    "correctIndex": 1,
+    "explanation": "Airwaves are accessible broadcast mediums, requiring robust encryption (such as WPA3) to prevent unauthorized packet capture.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-11",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "Which data sanitization method utilizes a powerful magnetic field to scramble magnetic storage domains, rendering hard drives unreadable?",
+    "options": [
+      "Degaussing",
+      "Cryptographic erasure",
+      "Overwriting with zeros",
+      "File shredding"
+    ],
+    "correctIndex": 0,
+    "explanation": "Degaussing uses magnetic force to neutralize magnetic media data storage, though it is ineffective on solid-state drives.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-12",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the cryptographic distinction between symmetric and asymmetric encryption algorithms?",
+    "options": [
+      "Symmetric uses two keys (public and private); asymmetric uses a single shared key",
+      "Symmetric uses a single shared secret key for both encryption and decryption; asymmetric uses mathematically linked public and private key pairs",
+      "Asymmetric encryption is exclusively used for data at rest on USB drives",
+      "Symmetric algorithms require quantum computing to function"
+    ],
+    "correctIndex": 1,
+    "explanation": "Symmetric cryptography relies on one shared key for speed, while asymmetric cryptography uses public-private key pairs for secure key exchange and digital signatures.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-13",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the primary purpose of aggregating security event logs into a SIEM (Security Information and Event Management) platform?",
+    "options": [
+      "To slow down network traffic for bandwidth throttling",
+      "To provide centralized real-time monitoring, alert correlation, and security event triage across enterprise data streams",
+      "To automatically replace missing operating system patches",
+      "To generate invoices for cloud service billing"
+    ],
+    "correctIndex": 1,
+    "explanation": "SIEM systems collect and correlate log data across the enterprise, enabling analysts to triage events and detect sophisticated attacks.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-14",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "During security testing, which team operates as an offensive simulation unit attempting to breach defenses without prior internal knowledge, testing the organization's detection capabilities?",
+    "options": [
+      "Blue Team",
+      "Red Team",
+      "Purple Team",
+      "Change Advisory Board"
+    ],
+    "correctIndex": 1,
+    "explanation": "Red teams simulate real-world adversaries to test security readiness, while blue teams defend, and purple teams collaborate.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-15",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the primary risk associated with running End-Of-Life (EOL) software and unsupported devices within an asset inventory?",
+    "options": [
+      "Excessive power consumption on corporate power grids",
+      "Vendors no longer release security patches, leaving systems permanently vulnerable to newly discovered exploits",
+      "Incompatibility with wireless Bluetooth mice",
+      "Mandatory software licensing fee increases"
+    ],
+    "correctIndex": 1,
+    "explanation": "EOL systems stop receiving security updates from vendors, creating permanent vulnerabilities that attackers exploit.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-16",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "Which application testing methodology evaluates software security by examining source code statically without executing the application?",
+    "options": [
+      "Dynamic Application Security Testing (DAST)",
+      "Static Application Security Testing (SAST)",
+      "Penetration testing",
+      "Fuzzing"
+    ],
+    "correctIndex": 1,
+    "explanation": "SAST analyzes application source code or binaries for vulnerabilities without running the program.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-17",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "How do cryptographic hash functions (such as SHA-256) differ from encryption algorithms?",
+    "options": [
+      "Hashes can be easily decrypted back to plaintext using a private key",
+      "Hashing is a one-way mathematical transformation that produces a fixed-size checksum used to verify data integrity, whereas encryption is reversible",
+      "Hashes are exclusively used for securing data in transit across VPNs",
+      "Hashes require two keys instead of one"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hashing is irreversible and verifies integrity, whereas encryption is reversible for confidentiality.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-18",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the primary role of Cyber Threat Intelligence (CTI) in security operations?",
+    "options": [
+      "To calculate quantitative asset financial loss expectancy",
+      "To provide evidence-based knowledge about threat actor motivations, tactics, indicators, and procedures (TIO/TTPs) to preemptively harden defenses",
+      "To audit physical data center visitor logs",
+      "To provision user accounts across cloud directories"
+    ],
+    "correctIndex": 1,
+    "explanation": "CTI equips security teams with actionable intelligence regarding adversary behaviors to anticipate attacks.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q5-19",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "During an incident response engagement, security analysts perform event triage. What does this process involve?",
+    "options": [
+      "Physically repairing damaged server motherboards",
+      "Evaluating incoming alerts, filtering false positives, correlating incident use cases, and prioritizing response urgency",
+      "Negotiating ransom payments with threat actors",
+      "Rewriting enterprise firewall firmware"
+    ],
+    "correctIndex": 1,
+    "explanation": "Triage evaluates alerts, determines incident validity, and prioritizes remediation based on severity and impact.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q5-20",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the objective of configuration and change management within asset protection and operations?",
+    "options": [
+      "To prevent all modifications to IT infrastructure permanently",
+      "To ensure all system changes are formally requested, risk-assessed, approved by a CAB, and tracked to prevent unauthorized drift or vulnerabilities",
+      "To automate employee onboarding tasks",
+      "To calculate annual cyber insurance deductibles"
+    ],
+    "correctIndex": 1,
+    "explanation": "Change management governs IT modifications to ensure stability and prevent unauthorized security configuration changes.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-21",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "Which data handling technique replaces sensitive data fields with randomized or fictionalized placeholder values to protect privacy during testing or development?",
+    "options": [
+      "Data encryption",
+      "Data masking",
+      "Degaussing",
+      "Hashing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Data masking obscures sensitive data elements (like credit card numbers or PII) for safe non-production usage.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-22",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the goal of quantum-resistant cryptography research?",
+    "options": [
+      "To make encryption algorithms run faster on quantum computers",
+      "To develop cryptographic algorithms that cannot be easily decrypted by future quantum computing decryption capabilities",
+      "To replace symmetric keys with quantum entanglement",
+      "To eliminate the need for key exchange protocols"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quantum-resistant cryptography aims to safeguard encrypted data against future decryption attacks posed by quantum computers.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q5-23",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What does a purple team exercise accomplish in security readiness testing?",
+    "options": [
+      "It separates offensive and defensive teams completely to avoid communication",
+      "It combines red team offensive simulations with blue team defensive monitoring in a collaborative, continuous learning feedback loop",
+      "It focuses exclusively on physical social engineering and tailgating",
+      "It tests application source code using static analysis tools only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Purple teaming merges red and blue capabilities to validate detection mechanisms and enhance overall security posture collaboratively.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q5-24",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "Which physical penetration testing technique exploits human trust and social engineering by closely following an authorized employee through a secure doorway without badge scanning?",
+    "options": [
+      "Phishing",
+      "Tailgating",
+      "Impersonation",
+      "Degaussing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tailgating (or piggybacking) bypasses physical access controls by exploiting employee courtesy to enter secure areas.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-25",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "How do data handling policies integrate with the Incident Response Plan (IRP) during a data breach?",
+    "options": [
+      "They dictate how sensitive data must be classified, preserved, contained, and sanitized during incident containment and recovery",
+      "They authorize immediate public disclosure of all encrypted databases",
+      "They eliminate the need for post-incident lessons-learned reviews",
+      "They replace network firewall rule sets automatically"
+    ],
+    "correctIndex": 1,
+    "explanation": "Data handling policies guide how compromised sensitive information is secured, handled, and eradicated during an incident response lifecycle.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q4-34",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "Which cloud deployment model is operated exclusively for a single organization, whether managed internally or by a third party?",
+    "options": [
+      "Public cloud",
+      "Private cloud",
+      "Community cloud",
+      "Hybrid cloud"
+    ],
+    "correctIndex": 1,
+    "explanation": "A private cloud provides dedicated infrastructure operated solely for a single organization.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-35",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What is the purpose of micro-segmentation in advanced network security architectures?",
+    "options": [
+      "To divide physical cables into smaller millimeter lengths",
+      "To create highly granular security perimeters around individual workloads or containers within a data center",
+      "To restrict wireless Bluetooth connectivity to 2 meters",
+      "To force all network traffic through a single legacy router"
+    ],
+    "correctIndex": 1,
+    "explanation": "Micro-segmentation applies software-defined perimeter controls down to individual virtual machines or containers, stopping lateral movement.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q4-36",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "Which IPv6 feature significantly improves address allocation efficiency and eliminates the traditional need for Network Address Translation (NAT) in enterprise networks?",
+    "options": [
+      "32-bit address space",
+      "128-bit address space",
+      "Packet fragmentation headers",
+      "Broadcast storm suppression"
+    ],
+    "correctIndex": 1,
+    "explanation": "IPv6 utilizes a massive 128-bit address space, providing enough unique IP addresses for every device globally without requiring NAT.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-37",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "What does 'measured service' signify in cloud computing characteristics?",
+    "options": [
+      "Measuring employee typing speed in cloud word processors",
+      "Transparent resource optimization where cloud usage is monitored, controlled, and reported based on utilization",
+      "Measuring physical office square footage",
+      "Calculating annual cybersecurity insurance premiums"
+    ],
+    "correctIndex": 1,
+    "explanation": "Measured service allows cloud providers and customers to track resource consumption (storage, bandwidth, processing) for billing and optimization.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q4-38",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "How does Defense in Depth apply to network security architecture?",
+    "options": [
+      "By relying on a single, highly impenetrable perimeter firewall",
+      "By deploying multiple layers of heterogeneous security controls (perimeter, network, host, and application) so failure of one does not compromise the enterprise",
+      "By placing all servers directly on the public internet",
+      "By eliminating administrative passwords"
+    ],
+    "correctIndex": 1,
+    "explanation": "Defense in depth layers multiple safeguards across network boundaries and hosts to ensure resilience against breaches.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-39",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "Which cloud service model provides developers with a complete runtime environment, databases, and deployment tools while abstracting underlying OS management?",
+    "options": [
+      "Infrastructure as a Service (IaaS)",
+      "Platform as a Service (PaaS)",
+      "Software as a Service (SaaS)",
+      "Desktop as a Service (DaaS)"
+    ],
+    "correctIndex": 1,
+    "explanation": "PaaS delivers an environment for building and deploying applications without managing operating systems or hardware.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q4-40",
+    "domainId": "networking-cloud-security",
+    "domainNumber": 4,
+    "text": "Why are wireless networks considered inherently more vulnerable to eavesdropping than wired networks?",
+    "options": [
+      "Wireless signals operate on lower voltage levels",
+      "Radio frequency transmissions propagate through open air and physical barriers, allowing attackers to intercept traffic without physical wire tapping",
+      "Wireless routers do not support encryption protocols",
+      "Wireless NICs cannot utilize MAC filtering"
+    ],
+    "correctIndex": 1,
+    "explanation": "Airwaves are accessible broadcast mediums, requiring robust encryption (such as WPA3) to prevent unauthorized packet capture.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-26",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "Which data sanitization method utilizes a powerful magnetic field to scramble magnetic storage domains, rendering hard drives unreadable?",
+    "options": [
+      "Degaussing",
+      "Cryptographic erasure",
+      "Overwriting with zeros",
+      "File shredding"
+    ],
+    "correctIndex": 0,
+    "explanation": "Degaussing uses magnetic force to neutralize magnetic media data storage, though it is ineffective on solid-state drives.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-27",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the cryptographic distinction between symmetric and asymmetric encryption algorithms?",
+    "options": [
+      "Symmetric uses two keys (public and private); asymmetric uses a single shared key",
+      "Symmetric uses a single shared secret key for both encryption and decryption; asymmetric uses mathematically linked public and private key pairs",
+      "Asymmetric encryption is exclusively used for data at rest on USB drives",
+      "Symmetric algorithms require quantum computing to function"
+    ],
+    "correctIndex": 1,
+    "explanation": "Symmetric cryptography relies on one shared key for speed, while asymmetric cryptography uses public-private key pairs for secure key exchange and digital signatures.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-28",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the primary purpose of aggregating security event logs into a SIEM (Security Information and Event Management) platform?",
+    "options": [
+      "To slow down network traffic for bandwidth throttling",
+      "To provide centralized real-time monitoring, alert correlation, and security event triage across enterprise data streams",
+      "To automatically replace missing operating system patches",
+      "To generate invoices for cloud service billing"
+    ],
+    "correctIndex": 1,
+    "explanation": "SIEM systems collect and correlate log data across the enterprise, enabling analysts to triage events and detect sophisticated attacks.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-29",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "During security testing, which team operates as an offensive simulation unit attempting to breach defenses without prior internal knowledge, testing the organization's detection capabilities?",
+    "options": [
+      "Blue Team",
+      "Red Team",
+      "Purple Team",
+      "Change Advisory Board"
+    ],
+    "correctIndex": 1,
+    "explanation": "Red teams simulate real-world adversaries to test security readiness, while blue teams defend, and purple teams collaborate.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-30",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the primary risk associated with running End-Of-Life (EOL) software and unsupported devices within an asset inventory?",
+    "options": [
+      "Excessive power consumption on corporate power grids",
+      "Vendors no longer release security patches, leaving systems permanently vulnerable to newly discovered exploits",
+      "Incompatibility with wireless Bluetooth mice",
+      "Mandatory software licensing fee increases"
+    ],
+    "correctIndex": 1,
+    "explanation": "EOL systems stop receiving security updates from vendors, creating permanent vulnerabilities that attackers exploit.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-31",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "Which application testing methodology evaluates software security by examining source code statically without executing the application?",
+    "options": [
+      "Dynamic Application Security Testing (DAST)",
+      "Static Application Security Testing (SAST)",
+      "Penetration testing",
+      "Fuzzing"
+    ],
+    "correctIndex": 1,
+    "explanation": "SAST analyzes application source code or binaries for vulnerabilities without running the program.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-32",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "How do cryptographic hash functions (such as SHA-256) differ from encryption algorithms?",
+    "options": [
+      "Hashes can be easily decrypted back to plaintext using a private key",
+      "Hashing is a one-way mathematical transformation that produces a fixed-size checksum used to verify data integrity, whereas encryption is reversible",
+      "Hashes are exclusively used for securing data in transit across VPNs",
+      "Hashes require two keys instead of one"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hashing is irreversible and verifies integrity, whereas encryption is reversible for confidentiality.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-33",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the primary role of Cyber Threat Intelligence (CTI) in security operations?",
+    "options": [
+      "To calculate quantitative asset financial loss expectancy",
+      "To provide evidence-based knowledge about threat actor motivations, tactics, indicators, and procedures (TIO/TTPs) to preemptively harden defenses",
+      "To audit physical data center visitor logs",
+      "To provision user accounts across cloud directories"
+    ],
+    "correctIndex": 1,
+    "explanation": "CTI equips security teams with actionable intelligence regarding adversary behaviors to anticipate attacks.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q5-34",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "During an incident response engagement, security analysts perform event triage. What does this process involve?",
+    "options": [
+      "Physically repairing damaged server motherboards",
+      "Evaluating incoming alerts, filtering false positives, correlating incident use cases, and prioritizing response urgency",
+      "Negotiating ransom payments with threat actors",
+      "Rewriting enterprise firewall firmware"
+    ],
+    "correctIndex": 1,
+    "explanation": "Triage evaluates alerts, determines incident validity, and prioritizes remediation based on severity and impact.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q5-35",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the objective of configuration and change management within asset protection and operations?",
+    "options": [
+      "To prevent all modifications to IT infrastructure permanently",
+      "To ensure all system changes are formally requested, risk-assessed, approved by a CAB, and tracked to prevent unauthorized drift or vulnerabilities",
+      "To automate employee onboarding tasks",
+      "To calculate annual cyber insurance deductibles"
+    ],
+    "correctIndex": 1,
+    "explanation": "Change management governs IT modifications to ensure stability and prevent unauthorized security configuration changes.",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "q5-36",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "Which data handling technique replaces sensitive data fields with randomized or fictionalized placeholder values to protect privacy during testing or development?",
+    "options": [
+      "Data encryption",
+      "Data masking",
+      "Degaussing",
+      "Hashing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Data masking obscures sensitive data elements (like credit card numbers or PII) for safe non-production usage.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-37",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What is the goal of quantum-resistant cryptography research?",
+    "options": [
+      "To make encryption algorithms run faster on quantum computers",
+      "To develop cryptographic algorithms that cannot be easily decrypted by future quantum computing decryption capabilities",
+      "To replace symmetric keys with quantum entanglement",
+      "To eliminate the need for key exchange protocols"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quantum-resistant cryptography aims to safeguard encrypted data against future decryption attacks posed by quantum computers.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q5-38",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "What does a purple team exercise accomplish in security readiness testing?",
+    "options": [
+      "It separates offensive and defensive teams completely to avoid communication",
+      "It combines red team offensive simulations with blue team defensive monitoring in a collaborative, continuous learning feedback loop",
+      "It focuses exclusively on physical social engineering and tailgating",
+      "It tests application source code using static analysis tools only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Purple teaming merges red and blue capabilities to validate detection mechanisms and enhance overall security posture collaboratively.",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "q5-39",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "Which physical penetration testing technique exploits human trust and social engineering by closely following an authorized employee through a secure doorway without badge scanning?",
+    "options": [
+      "Phishing",
+      "Tailgating",
+      "Impersonation",
+      "Degaussing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tailgating (or piggybacking) bypasses physical access controls by exploiting employee courtesy to enter secure areas.",
+    "difficulty": "foundational"
+  },
+  {
+    "id": "q5-40",
+    "domainId": "security-operations-incident-response",
+    "domainNumber": 5,
+    "text": "How do data handling policies integrate with the Incident Response Plan (IRP) during a data breach?",
+    "options": [
+      "They dictate how sensitive data must be classified, preserved, contained, and sanitized during incident containment and recovery",
+      "They authorize immediate public disclosure of all encrypted databases",
+      "They eliminate the need for post-incident lessons-learned reviews",
+      "They replace network firewall rule sets automatically"
+    ],
+    "correctIndex": 1,
+    "explanation": "Data handling policies guide how compromised sensitive information is secured, handled, and eradicated during an incident response lifecycle.",
+    "difficulty": "advanced"
   }
 ]

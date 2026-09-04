@@ -7,7 +7,6 @@ import { ExamHub } from './pages/ExamHub';
 import { ExamSession } from './pages/ExamSession';
 import { ExamResults } from './pages/ExamResults';
 import { Glossary } from './pages/Glossary';
-import { Admin } from './pages/Admin';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +20,6 @@ const router = createBrowserRouter([
       { path: 'exam/session', element: <ExamSession /> },
       { path: 'exam/results/:id', element: <ExamResults /> },
       { path: 'glossary', element: <Glossary /> },
-      { path: 'admin', element: <Admin /> },
     ],
   },
 ]);

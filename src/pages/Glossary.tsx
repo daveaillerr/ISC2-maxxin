@@ -69,7 +69,7 @@ export function Glossary() {
                 onClick={() => setSelectedDomain(name)}
                 className={`rounded-lg border px-4 py-2 text-sm font-medium transition-all ${
                   selectedDomain === name
-                    ? 'border-isc2-green bg-isc2-green text-white shadow-md'
+                    ? 'border-isc2-green bg-isc2-green text-white '
                     : 'border-border bg-white text-slate-secondary hover:border-slate-300 hover:bg-slate-50'
                 }`}
               >
@@ -81,13 +81,13 @@ export function Glossary() {
       </div>
 
       {/* Terms List */}
-      <div className="rounded-2xl border border-border bg-white shadow-sm">
+      <div className="rounded-2xl border border-border bg-white ">
         {filtered.length > 0 ? (
           <div className="divide-y divide-slate-200">
             {filtered.map((item, index) => (
               <div
                 key={index}
-                className="p-8 transition-all hover:bg-gradient-to-r hover:from-isc2-green/5 hover:to-transparent"
+                className="p-8 transition-all hover:bg-isc2-green/5"
               >
                 <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                   <div className="flex-1">

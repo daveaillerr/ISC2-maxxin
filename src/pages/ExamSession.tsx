@@ -21,7 +21,7 @@ export function ExamSession() {
   useEffect(() => {
     if (!config) return;
 
-    let pool = [...allQuestions];
+    let pool: Question[] = [...allQuestions] as Question[];
     if (config.mode === 'domain' && config.domainId) {
       pool = pool.filter((q) => q.domainId === config.domainId);
     }

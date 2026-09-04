@@ -36,12 +36,12 @@ export function ExamHub() {
       {/* Exam Modes */}
       <div className="grid gap-6 lg:grid-cols-3 lg:grid-rows-2">
         {/* Standard Mock Exam */}
-        <div className="relative lg:col-span-2 lg:row-span-1 rounded-2xl border border-border bg-gradient-to-br from-isc2-green/10 to-slate-50 p-8 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between overflow-hidden group">
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-isc2-green/0 to-isc2-green/0 group-hover:from-isc2-green/5 group-hover:to-isc2-green/10 transition-all" />
+        <div className="relative lg:col-span-2 lg:row-span-1 rounded-2xl border border-border bg-white p-8 hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group">
+          
 
           <div className="relative">
             <div className="flex items-start justify-between mb-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-isc2-green text-white shadow-md">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-isc2-green text-white">
                 <ClipboardCheck size={24} />
               </div>
 
@@ -98,7 +98,7 @@ export function ExamHub() {
         </div>
 
         {/* Quick Tip */}
-        <div className="rounded-2xl border border-border bg-white p-6 shadow-sm hover:shadow-md transition-all">
+        <div className="rounded-2xl border border-border bg-white p-6 hover:shadow-md transition-all">
           <div className="flex items-start gap-3 mb-4">
             <Zap className="text-isc2-green" size={20} />
 
@@ -128,11 +128,11 @@ export function ExamHub() {
         </div>
 
         {/* Domain Diagnostic */}
-        <div className="relative lg:col-span-1 rounded-2xl border border-border bg-white p-8 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between overflow-hidden group">
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-transparent to-blue-50/30 group-hover:to-blue-50/50 transition-all" />
+        <div className="relative lg:col-span-1 rounded-2xl border border-border bg-white p-8 hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group">
+          
 
           <div className="relative">
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500 text-white shadow-md mb-4">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500 text-white mb-4">
               <Target size={24} />
             </div>
 
@@ -201,11 +201,11 @@ export function ExamHub() {
         </div>
 
         {/* Practice Mode */}
-        <div className="relative lg:col-span-1 rounded-2xl border border-border bg-white p-8 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between overflow-hidden group">
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-transparent to-amber-50/30 group-hover:to-amber-50/50 transition-all" />
+        <div className="relative lg:col-span-1 rounded-2xl border border-border bg-white p-8 hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group">
+          
 
           <div className="relative">
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-500 text-white shadow-md mb-4">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-500 text-white mb-4">
               <BookOpen size={24} />
             </div>
 
@@ -246,11 +246,11 @@ export function ExamHub() {
         </div>
 
         {/* External Exams */}
-        <div className="relative lg:col-span-1 rounded-2xl border border-border bg-white p-8 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between overflow-hidden group">
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-transparent to-amber-50/30 group-hover:to-amber-50/50 transition-all" />
+        <div className="relative lg:col-span-1 rounded-2xl border border-border bg-white p-8 hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group">
+          
 
           <div className="relative">
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-red-500 text-white shadow-md mb-4">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-red-500 text-white mb-4">
               <Library size={24} />
             </div>
 
